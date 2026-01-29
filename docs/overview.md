@@ -21,7 +21,22 @@ The goal is to align default behaviors, protections, error messages, and configu
 
 ## How to use this site
 
-Pick the patterns that match your software category. Each pattern page documents the intent, configuration, defaults, and cautions. Each problem page describes a common failure mode and links back to patterns that address it.
+Pick and implement the patterns that match your software category. Each pattern page documents the intent, configuration, defaults, and cautions. Each problem page describes a common failure mode and links back to patterns that address it.
+
+This site is **pattern-centric**: implement the recommended patterns and your users should be set on the path to success. The problems are documented only to justify why a pattern exists and to provide context.
+
+In practical terms, the intent is to:
+
+- Provide clear, named patterns that tooling authors should implement by default.
+- Define common parameters and recommended defaults for each pattern.
+- Explain why a pattern exists and when users might opt out.
+- Keep space for innovation while still converging on shared outcomes.
+
+## Allowing for innovation
+
+This website is deliberately opinionated, but it is not intended to limit innovation. For example, encouraging co-location of data requirements and prevention of unrequested data access does not require a single implementation. A client might infer data usage via static analysis, rely on build-time typing, or use runtime masking—different approaches can still satisfy the same goal.
+
+If you feel that a particular pattern is overly prescriptive, please contribute a PR that maintains the intent (i.e. ensures the same problems are still solved) whilst updating the language to be more inclusive of alternative solutions.
 
 ### GraphQL server or gateway
 
@@ -40,6 +55,10 @@ Pick the patterns that match your software category. Each pattern page documents
 - [Trusted documents](/pattern/trusted-documents)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
+
+## Status
+
+This is a work in progress and not official. Content is incomplete and may be incorrect, and the initial draft was AI-assisted, so verification is recommended.
 
 ## External references
 
