@@ -5,7 +5,7 @@ slug: /
 
 This site is a draft playbook for **authors of GraphQL software**: client libraries, servers, gateways, schema tooling, code generators, observability platforms, and related infrastructure. It is **not** for application developers who write GraphQL queries for their own apps.
 
-The goal is to align default behaviors, error messages, and configuration options across GraphQL tooling so users start on a “golden path” and can debug issues using shared vocabulary.
+The goal is to align default behaviors, protections, error messages, and configuration options across GraphQL tooling so users start on a “golden path” that leads them to the "pit of success", avoiding many of the problems that naive implementation of GraphQL can lead to.
 
 ## Who this is for
 
@@ -40,13 +40,6 @@ Pick the patterns that match your software category. Each pattern page documents
 - [Trusted documents](/pattern/trusted-documents)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
-
-## Problems this initiative targets
-
-- [N+1 queries](/problem/n-plus-1)
-- [Request payload size](/problem/request-payload-size)
-- [Parse-time denial of service](/problem/parse-dos)
-- [Execution cost spikes](/problem/execution-cost)
 
 ## External references
 
