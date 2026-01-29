@@ -29,8 +29,17 @@ In practical terms, the intent is to:
 
 - Provide clear, named patterns that tooling authors should implement by default.
 - Define common parameters and recommended defaults for each pattern.
-- Explain why a pattern exists and when users might opt out.
+- Explain why a pattern exists, why it is the recommended default, and when users might opt out.
 - Keep space for innovation while still converging on shared outcomes.
+
+## “Just works” defaults
+
+Recommended patterns should **just work** for users. If a user must put in effort, the default should be the **only** way to do the thing so the path of least resistance still lands them in the pit of success.
+
+Examples:
+
+- Batch resolvers remove N+1 by default and require explicit effort to unbatch, while DataLoader requires users to wire it everywhere and reason about lifecycle and cache scope.
+- Combining query composition with fragment co-location and data masking ensures local data requirements; adding fields to a root query won’t silently leak into every component.
 
 ## Allowing for innovation
 
@@ -44,17 +53,20 @@ If you feel that a particular pattern is overly prescriptive, please contribute 
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
 - [Trusted documents](/pattern/trusted-documents)
+- [Query composition](/pattern/query-composition)
 
 ### GraphQL client or client framework
 
 - [Trusted documents](/pattern/trusted-documents)
 - [Query complexity limits](/pattern/query-complexity-limits)
+- [Query composition](/pattern/query-composition)
 
 ### Tooling (codegen, linting, schema registries)
 
 - [Trusted documents](/pattern/trusted-documents)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
+- [Query composition](/pattern/query-composition)
 
 ## Status
 

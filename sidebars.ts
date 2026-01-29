@@ -20,6 +20,7 @@ const sidebars: SidebarsConfig = {
       label: 'Patterns',
       items: [
         'pattern/batch-resolvers',
+        'pattern/query-composition',
         'pattern/trusted-documents',
         'pattern/query-complexity-limits',
         'pattern/depth-limits',
@@ -33,6 +34,7 @@ const sidebars: SidebarsConfig = {
         'problem/request-payload-size',
         'problem/parse-dos',
         'problem/execution-cost',
+        'problem/overfetching-underfetching',
       ],
     },
   ],

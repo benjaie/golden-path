@@ -34,6 +34,10 @@ Trusted documents allow only pre-registered operations to execute, reducing atta
 - Align client and server hash algorithms and canonicalization.
 - Ensure operational tooling can safely roll back or revoke documents.
 
+## Why this is the recommended default
+
+Trusted documents make the safe path automatic: unknown operations are rejected, payloads are smaller, and parsing costs are predictable. This reduces the chance that users accidentally expose a public execution surface when they did not intend to.
+
 ## Why users might opt out
 
 Users may need to support ad-hoc queries (public APIs, exploratory tooling, or third-party integrations) where pre-registration is not feasible. In those cases, a hybrid mode can be a bridge, but fully open execution trades safety for flexibility.

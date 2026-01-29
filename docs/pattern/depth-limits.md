@@ -32,6 +32,10 @@ Depth limits cap how deep a query can nest selections to prevent runaway travers
 - Introspection depth should be separate from app queries.
 - Depth limits do not replace complexity limits; use both.
 
+## Why this is the recommended default
+
+Depth limits are simple and fast to enforce, and they stop a large class of pathological queries before execution. They are an easy, consistent baseline across tooling.
+
 ## Why users might opt out
 
 If every operation is trusted and curated, users might allow deeper queries in specific contexts (e.g., internal tooling or schema inspection workflows). Some systems also rely solely on complexity limits.

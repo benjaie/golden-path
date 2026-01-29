@@ -9,11 +9,15 @@ This is **not** intended to be guidance for application developers who write Gra
 - Identify common problems that users face, especially issues that cause frustration, disillusionment, or are hard to rectify.
 - Identify and specify the patterns that libraries/tooling/frameworks should put in place so that users never meet these problems.
 - Define common names for these techniques/patterns and their parameters, and determine the recommended defaults and configuration parameters.
-- Explain why each pattern exists and when it may be reasonable for a user to opt out.
+- Explain why each pattern exists, why it is the recommended default, and when it may be reasonable for a user to opt out.
 - Connect patterns to the concrete problems they solve.
 - Don't be overly prescriptive, allow space for innovation.
 
 The long-term aim is that GraphQL tooling can provide a consistent, safe, and predictable “golden path” out of the box, while still allowing experts to opt out with informed intent.
+
+### “Just works” defaults
+
+A key requirement is that recommended patterns should **just work** for users without ongoing vigilance. If users must exert effort, the default should be the **only** way to do the thing so the path of least resistance still lands them in the pit of success. For example, batch resolvers remove N+1 by default, whereas DataLoader requires users to remember to wire it into every resolver and manage lifecycle decisions. Similarly, combining query composition with fragment co-location and data masking ensures that data requirements stay local, and root-level additions do not accidentally leak into every component.
 
 ### Allowing for innovation
 
