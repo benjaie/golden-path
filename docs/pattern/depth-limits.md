@@ -32,6 +32,12 @@ Depth limits cap how deep a query can nest selections to prevent runaway travers
 - Introspection depth should be separate from app queries.
 - Depth limits do not replace complexity limits; use both.
 
+## Why you might opt out
+
+If every operation is trusted and curated, you might allow deeper queries in specific contexts (e.g., internal tooling or schema inspection workflows). Some systems also rely solely on complexity limits.
+
+The risk is that deeply nested queries can exhaust parser and validator resources before execution even starts. Depth limits are recommended because they are simple, deterministic, and fast to enforce.
+
 ## Problems addressed
 
 - [Parse-time denial of service](/problem/parse-dos)
