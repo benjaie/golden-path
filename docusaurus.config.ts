@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://example.com',
+  url: 'https://goldenpath.graphql.cafe',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -80,7 +80,6 @@ const config: Config = {
           label: 'Docs',
         },
         {to: '/pattern/batch-resolvers', label: 'Patterns', position: 'left'},
-        {to: '/problem/n-plus-1', label: 'Problems', position: 'left'},
         {
           href: 'https://github.com/graphql',
           label: 'GitHub',
@@ -120,14 +119,10 @@ const config: Config = {
               label: 'Patterns',
               to: '/pattern/batch-resolvers',
             },
-            {
-              label: 'Problems',
-              to: '/problem/n-plus-1',
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} GraphQL Golden Path Initiative. Built with Docusaurus.`,
+      copyright: 'Copyright GraphQL Contributors',
     },
     prism: {
       theme: prismThemes.github,

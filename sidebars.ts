@@ -26,17 +26,6 @@ const sidebars: SidebarsConfig = {
         'pattern/depth-limits',
       ],
     },
-    {
-      type: 'category',
-      label: 'Problems',
-      items: [
-        'problem/n-plus-1',
-        'problem/request-payload-size',
-        'problem/parse-dos',
-        'problem/execution-cost',
-        'problem/overfetching-underfetching',
-      ],
-    },
   ],
 };
 
