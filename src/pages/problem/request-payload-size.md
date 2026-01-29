@@ -1,7 +1,5 @@
 ---
 title: Request payload size
-pagination_prev: null
-pagination_next: null
 ---
 
 ## What it is
