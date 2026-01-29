@@ -34,9 +34,9 @@ Trusted documents allow only pre-registered operations to execute, reducing atta
 - Align client and server hash algorithms and canonicalization.
 - Ensure operational tooling can safely roll back or revoke documents.
 
-## Why you might opt out
+## Why users might opt out
 
-You may need to support ad-hoc queries (public APIs, exploratory tooling, or third-party integrations) where pre-registration is not feasible. In those cases, a hybrid mode can be a bridge, but fully open execution trades safety for flexibility.
+Users may need to support ad-hoc queries (public APIs, exploratory tooling, or third-party integrations) where pre-registration is not feasible. In those cases, a hybrid mode can be a bridge, but fully open execution trades safety for flexibility.
 
 The risk of opting out is a larger attack surface: bigger payloads, higher parse/validation costs, and inconsistent error behaviors across tooling. Trusted documents are recommended because they standardize errors and limits, and they enable predictable performance.
 

@@ -32,9 +32,9 @@ Complexity limits cap the estimated cost of a query before execution to prevent 
 - Avoid leaking schema or data in error responses.
 - Ensure the complexity model matches your pagination conventions.
 
-## Why you might opt out
+## Why users might opt out
 
-If all traffic is trusted and pre-registered (for example, strict trusted documents plus stable query planning), you may choose to relax complexity limits. Some teams also rely on external rate limiting and circuit breakers instead.
+If all traffic is trusted and pre-registered (for example, strict trusted documents plus stable query planning), users may choose to relax complexity limits. Some teams also rely on external rate limiting and circuit breakers instead.
 
 The risk is that a small, valid query can still trigger very expensive execution. Without a shared complexity model, defaults diverge across libraries, and users cannot reason about errors or safe limits. Complexity limits are recommended to establish predictable execution costs.
 
