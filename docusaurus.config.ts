@@ -69,16 +69,10 @@ const config: Config = {
     navbar: {
       title: 'GraphQL Golden Path',
       logo: {
-        alt: 'GraphQL Golden Path logo',
-        src: 'img/logo.svg',
+        alt: 'GraphQL logo',
+        src: 'img/graphql-logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'goldenPathSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
         {to: '/pattern/batch-resolvers', label: 'Patterns', position: 'left'},
         {
           href: 'https://github.com/graphql',

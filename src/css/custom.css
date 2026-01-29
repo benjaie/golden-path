@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Source+Sans+3:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root {
-  --ifm-color-primary: #0f6b5a;
-  --ifm-color-primary-dark: #0b5a4c;
-  --ifm-color-primary-darker: #094f43;
-  --ifm-color-primary-darkest: #073a31;
-  --ifm-color-primary-light: #13806a;
-  --ifm-color-primary-lighter: #16906f;
-  --ifm-color-primary-lightest: #1fa082;
-  --ifm-font-family-base: 'Source Sans 3', system-ui, -apple-system, sans-serif;
-  --ifm-heading-font-family: 'Fraunces', 'Source Sans 3', serif;
+  --ifm-color-primary: #e10098;
+  --ifm-color-primary-dark: #c40083;
+  --ifm-color-primary-darker: #b20078;
+  --ifm-color-primary-darkest: #8f0061;
+  --ifm-color-primary-light: #ff1aa6;
+  --ifm-color-primary-lighter: #ff2daf;
+  --ifm-color-primary-lightest: #ff57c1;
+  --ifm-font-family-base: 'Rubik', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Rubik', system-ui, -apple-system, sans-serif;
   --ifm-code-font-size: 95%;
   --ifm-background-color: #f8f3ea;
   --ifm-navbar-background-color: #f8f3ea;
@@ -18,34 +18,34 @@
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #6dd1bf;
-  --ifm-color-primary-dark: #57c4b0;
-  --ifm-color-primary-darker: #44b8a4;
-  --ifm-color-primary-darkest: #2e9a86;
-  --ifm-color-primary-light: #7fd9c9;
-  --ifm-color-primary-lighter: #90e0d1;
-  --ifm-color-primary-lightest: #a9eadc;
-  --ifm-background-color: #0f1716;
-  --ifm-navbar-background-color: #0f1716;
-  --ifm-footer-background-color: #0c1110;
-  --docusaurus-highlighted-code-line-bg: rgba(121, 217, 201, 0.2);
+  --ifm-color-primary: #ff58c4;
+  --ifm-color-primary-dark: #ff3eb6;
+  --ifm-color-primary-darker: #ff2bab;
+  --ifm-color-primary-darkest: #f4008e;
+  --ifm-color-primary-light: #ff72d2;
+  --ifm-color-primary-lighter: #ff85d9;
+  --ifm-color-primary-lightest: #ffade8;
+  --ifm-background-color: #0f1116;
+  --ifm-navbar-background-color: #0f1116;
+  --ifm-footer-background-color: #0c0e12;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 88, 196, 0.2);
 }
 
 body {
-  background-image: radial-gradient(circle at 12% 8%, #ffe6b3 0%, transparent 35%),
-    radial-gradient(circle at 85% 15%, #d1f5ef 0%, transparent 40%);
+  background-image: radial-gradient(circle at 12% 8%, #ffe0f3 0%, transparent 35%),
+    radial-gradient(circle at 85% 15%, #f1f3ff 0%, transparent 40%);
   background-attachment: fixed;
 }
 
 [data-theme='dark'] body {
-  background-image: radial-gradient(circle at 12% 8%, rgba(76, 154, 140, 0.3) 0%, transparent 40%),
-    radial-gradient(circle at 85% 15%, rgba(59, 86, 82, 0.4) 0%, transparent 45%);
+  background-image: radial-gradient(circle at 12% 8%, rgba(255, 88, 196, 0.2) 0%, transparent 40%),
+    radial-gradient(circle at 85% 15%, rgba(118, 126, 255, 0.15) 0%, transparent 45%);
 }
 
 .navbar__title {
   font-family: var(--ifm-heading-font-family);
-  font-weight: 800;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 .theme-doc-markdown h1,
@@ -55,15 +55,15 @@ body {
 }
 
 .theme-doc-markdown h1 {
-  font-weight: 800;
+  font-weight: 300;
 }
 
 .theme-doc-markdown h2 {
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .theme-doc-markdown h3 {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .theme-doc-markdown a {
