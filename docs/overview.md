@@ -50,8 +50,14 @@ If you feel that a particular pattern is overly prescriptive, please contribute 
 ### GraphQL server or gateway
 
 - [Batch resolvers](/pattern/batch-resolvers)
+- [Batching and caching (DataLoader)](/pattern/batching-caching)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
+- [Validation timeouts](/pattern/validation-timeouts)
+- [Execution timeouts](/pattern/execution-timeouts)
+- [Result size limits](/pattern/result-size-limits)
+- [Error masking](/pattern/error-masking)
+- [Introspection controls](/pattern/introspection-controls)
 - [Trusted documents](/pattern/trusted-documents)
 - [Query composition](/pattern/query-composition)
 
@@ -66,6 +72,8 @@ If you feel that a particular pattern is overly prescriptive, please contribute 
 - [Trusted documents](/pattern/trusted-documents)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
+- [Introspection controls](/pattern/introspection-controls)
+- [Error masking](/pattern/error-masking)
 - [Query composition](/pattern/query-composition)
 
 ## Status

@@ -45,3 +45,4 @@ The risk is that a small, valid query can still trigger very expensive execution
 ## Problems addressed
 
 - [Execution cost spikes](/problem/execution-cost)
+- [Excessive query complexity](/problem/query-complexity)

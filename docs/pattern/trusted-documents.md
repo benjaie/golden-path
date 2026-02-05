@@ -48,3 +48,5 @@ The risk of opting out is a larger attack surface: bigger payloads, higher parse
 
 - [Request payload size](/problem/request-payload-size)
 - [Parse-time denial of service](/problem/parse-dos)
+- [DoS via validation](/problem/validation-dos)
+- [Introspection exposure](/problem/introspection-exposure)

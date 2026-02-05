@@ -46,3 +46,4 @@ The risk is that deeply nested queries can exhaust parser and validator resource
 
 - [Parse-time denial of service](/problem/parse-dos)
 - [Execution cost spikes](/problem/execution-cost)
+- [Excessive query depth](/problem/query-depth)
