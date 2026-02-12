@@ -1,13 +1,13 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'GraphQL Golden Path',
-  tagline: 'Opinionated defaults for GraphQL tooling, clients, and servers',
-  favicon: 'img/favicon.ico',
+  title: "GraphQL Golden Path",
+  tagline: "Opinionated defaults for GraphQL tooling, clients, and servers",
+  favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -15,40 +15,40 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://goldenpath.graphql.cafe',
+  url: "https://goldenpath.graphql.cafe",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'benjaie',
-  projectName: 'golden-path',
-  deploymentBranch: 'gh-pages',
+  organizationName: "benjaie",
+  projectName: "golden-path",
+  deploymentBranch: "gh-pages",
   trailingSlash: true,
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "throw",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          routeBasePath: '/',
-          sidebarPath: './sidebars.ts',
+          routeBasePath: "/",
+          sidebarPath: "./sidebars.ts",
           editUrl: undefined,
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -56,69 +56,69 @@ const config: Config = {
 
   themeConfig: {
     announcementBar: {
-      id: 'wip-banner',
+      id: "wip-banner",
       content:
-        'Work in progress and not official. Guidance may be incomplete or incorrect.',
-      backgroundColor: '#f6c453',
-      textColor: '#1c1c1c',
+        "Work in progress and not official. Guidance may be incomplete or incorrect.",
+      backgroundColor: "#f6c453",
+      textColor: "#1c1c1c",
       isCloseable: false,
     },
     // Replace with your project's social card
-    image: 'img/logo.svg',
+    image: "img/logo.svg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'GraphQL Golden Path',
+      title: "GraphQL Golden Path",
       logo: {
-        alt: 'GraphQL logo',
-        src: 'img/graphql-logo.svg',
+        alt: "GraphQL logo",
+        src: "img/graphql-logo.svg",
       },
       items: [
-        {to: '/pattern/batch-resolvers', label: 'Patterns', position: 'left'},
+        { to: "/pattern/batch-resolvers", label: "Patterns", position: "left" },
         {
-          href: 'https://github.com/graphql',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/graphql",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Overview',
-              to: '/',
+              label: "Overview",
+              to: "/",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'GraphQL',
-              href: 'https://graphql.org',
+              label: "GraphQL",
+              href: "https://graphql.org",
             },
             {
-              label: 'GraphQL WG',
-              href: 'https://github.com/graphql',
+              label: "GraphQL WG",
+              href: "https://github.com/graphql",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Patterns',
-              to: '/pattern/batch-resolvers',
+              label: "Patterns",
+              to: "/pattern/batch-resolvers",
             },
           ],
         },
       ],
-      copyright: 'Copyright GraphQL Contributors',
+      copyright: "Copyright GraphQL Contributors",
     },
     prism: {
       theme: prismThemes.github,

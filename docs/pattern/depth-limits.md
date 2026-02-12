@@ -4,7 +4,8 @@ title: Depth limits
 
 ## Summary
 
-Depth limits cap how deep a query can nest selections to prevent runaway traversal and pathological parsing.
+Depth limits cap how deep a query can nest selections to prevent runaway
+traversal and pathological parsing.
 
 ## Applies to
 
@@ -14,11 +15,11 @@ Depth limits cap how deep a query can nest selections to prevent runaway travers
 
 ## Configuration (suggested defaults)
 
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `maxDepth` | `12` | Maximum selection depth per operation. |
-| `maxIntrospectionDepth` | `6` | Allow introspection but keep it bounded. |
-| `treatFragmentsAsInline` | `true` | Count fragment spreads toward depth. |
+| Parameter                | Default | Notes                                    |
+| ------------------------ | ------- | ---------------------------------------- |
+| `maxDepth`               | `12`    | Maximum selection depth per operation.   |
+| `maxIntrospectionDepth`  | `6`     | Allow introspection but keep it bounded. |
+| `treatFragmentsAsInline` | `true`  | Count fragment spreads toward depth.     |
 
 ## Implementation notes
 
@@ -34,13 +35,19 @@ Depth limits cap how deep a query can nest selections to prevent runaway travers
 
 ## Why this is the recommended default
 
-Depth limits are simple and fast to enforce, and they stop a large class of pathological queries before execution. They are an easy, consistent baseline across tooling.
+Depth limits are simple and fast to enforce, and they stop a large class of
+pathological queries before execution. They are an easy, consistent baseline
+across tooling.
 
 ## Why users might opt out
 
-If every operation is trusted and curated, users might allow deeper queries in specific contexts (e.g., internal tooling or schema inspection workflows). Some systems also rely solely on complexity limits.
+If every operation is trusted and curated, users might allow deeper queries in
+specific contexts (e.g., internal tooling or schema inspection workflows). Some
+systems also rely solely on complexity limits.
 
-The risk is that deeply nested queries can exhaust parser and validator resources before execution even starts. Depth limits are recommended because they are simple, deterministic, and fast to enforce.
+The risk is that deeply nested queries can exhaust parser and validator
+resources before execution even starts. Depth limits are recommended because
+they are simple, deterministic, and fast to enforce.
 
 ## Problems addressed
 

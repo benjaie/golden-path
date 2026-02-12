@@ -4,7 +4,8 @@ title: Introspection exposure
 
 ## What it is
 
-Unrestricted introspection can expose schema details in environments where that information should be limited.
+Unrestricted introspection can expose schema details in environments where that
+information should be limited.
 
 ## Symptoms
 

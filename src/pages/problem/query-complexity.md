@@ -4,7 +4,8 @@ title: Excessive query complexity
 
 ## What it is
 
-Queries with high field counts or expensive resolvers can overwhelm backend resources even if depth is limited.
+Queries with high field counts or expensive resolvers can overwhelm backend
+resources even if depth is limited.
 
 ## Symptoms
 
@@ -14,7 +15,8 @@ Queries with high field counts or expensive resolvers can overwhelm backend reso
 
 ## Why it matters
 
-Complexity-driven spikes make performance and safety hard to reason about, especially for new users.
+Complexity-driven spikes make performance and safety hard to reason about,
+especially for new users.
 
 ## Patterns that address this
 

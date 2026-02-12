@@ -14,11 +14,11 @@ Normalizes errors returned to clients and hides internal details by default.
 
 ## Configuration (suggested defaults)
 
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `maskingEnabled` | `true` | Mask internal errors by default. |
-| `exposedErrorCodes` | `[]` | Allowlist of safe error codes. |
-| `includeStack` | `false` | Never include stack traces in responses. |
+| Parameter           | Default | Notes                                    |
+| ------------------- | ------- | ---------------------------------------- |
+| `maskingEnabled`    | `true`  | Mask internal errors by default.         |
+| `exposedErrorCodes` | `[]`    | Allowlist of safe error codes.           |
+| `includeStack`      | `false` | Never include stack traces in responses. |
 
 ## Implementation notes
 
@@ -33,11 +33,13 @@ Normalizes errors returned to clients and hides internal details by default.
 
 ## Why this is the recommended default
 
-It prevents accidental leakage of sensitive details while giving users a consistent error surface. This is the safest default for new deployments.
+It prevents accidental leakage of sensitive details while giving users a
+consistent error surface. This is the safest default for new deployments.
 
 ## Why users might opt out
 
-Internal-only systems may choose to expose more details for faster debugging, but should still standardize error shapes.
+Internal-only systems may choose to expose more details for faster debugging,
+but should still standardize error shapes.
 
 ## Problems addressed
 

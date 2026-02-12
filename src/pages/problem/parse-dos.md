@@ -4,7 +4,8 @@ title: Parse-time denial of service
 
 ## What it is
 
-Attackers or accidental clients send extremely deep or large queries that are expensive to parse and validate, exhausting CPU and memory before execution.
+Attackers or accidental clients send extremely deep or large queries that are
+expensive to parse and validate, exhausting CPU and memory before execution.
 
 ## Symptoms
 
@@ -14,7 +15,8 @@ Attackers or accidental clients send extremely deep or large queries that are ex
 
 ## Why it matters
 
-Parse-time DoS can take down a server without touching business logic, which makes it easy to exploit and hard to mitigate after the fact.
+Parse-time DoS can take down a server without touching business logic, which
+makes it easy to exploit and hard to mitigate after the fact.
 
 ## Patterns that address this
 

@@ -14,11 +14,11 @@ Restricts schema introspection based on environment or authorization.
 
 ## Configuration (suggested defaults)
 
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `introspectionEnabled` | `false` | Disable in production by default. |
-| `introspectionAllowlist` | `[]` | Optional list of allowed clients or roles. |
-| `introspectionDepthLimit` | `6` | Keep introspection bounded. |
+| Parameter                 | Default | Notes                                      |
+| ------------------------- | ------- | ------------------------------------------ |
+| `introspectionEnabled`    | `false` | Disable in production by default.          |
+| `introspectionAllowlist`  | `[]`    | Optional list of allowed clients or roles. |
+| `introspectionDepthLimit` | `6`     | Keep introspection bounded.                |
 
 ## Implementation notes
 
@@ -33,11 +33,13 @@ Restricts schema introspection based on environment or authorization.
 
 ## Why this is the recommended default
 
-It reduces schema exposure in production while still allowing controlled access for trusted tooling.
+It reduces schema exposure in production while still allowing controlled access
+for trusted tooling.
 
 ## Why users might opt out
 
-Teams with private APIs or internal-only usage may keep introspection enabled to simplify tooling.
+Teams with private APIs or internal-only usage may keep introspection enabled to
+simplify tooling.
 
 ## Problems addressed
 

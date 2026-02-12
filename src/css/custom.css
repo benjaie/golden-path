@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
 
 :root {
   --ifm-color-primary: #e10098;
@@ -8,8 +8,8 @@
   --ifm-color-primary-light: #ff1aa6;
   --ifm-color-primary-lighter: #ff2daf;
   --ifm-color-primary-lightest: #ff57c1;
-  --ifm-font-family-base: 'Rubik', system-ui, -apple-system, sans-serif;
-  --ifm-heading-font-family: 'Rubik', system-ui, -apple-system, sans-serif;
+  --ifm-font-family-base: "Rubik", system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: "Rubik", system-ui, -apple-system, sans-serif;
   --ifm-code-font-size: 95%;
   --ifm-background-color: #f8f3ea;
   --ifm-navbar-background-color: #f8f3ea;
@@ -17,7 +17,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(16, 111, 92, 0.2);
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #ff58c4;
   --ifm-color-primary-dark: #ff3eb6;
   --ifm-color-primary-darker: #ff2bab;
@@ -32,14 +32,24 @@
 }
 
 body {
-  background-image: radial-gradient(circle at 12% 8%, #ffe0f3 0%, transparent 35%),
+  background-image:
+    radial-gradient(circle at 12% 8%, #ffe0f3 0%, transparent 35%),
     radial-gradient(circle at 85% 15%, #f1f3ff 0%, transparent 40%);
   background-attachment: fixed;
 }
 
-[data-theme='dark'] body {
-  background-image: radial-gradient(circle at 12% 8%, rgba(255, 88, 196, 0.2) 0%, transparent 40%),
-    radial-gradient(circle at 85% 15%, rgba(118, 126, 255, 0.15) 0%, transparent 45%);
+[data-theme="dark"] body {
+  background-image:
+    radial-gradient(
+      circle at 12% 8%,
+      rgba(255, 88, 196, 0.2) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(118, 126, 255, 0.15) 0%,
+      transparent 45%
+    );
 }
 
 .navbar__title {
@@ -76,6 +86,6 @@ body {
   padding: 0.75rem 1rem;
 }
 
-[data-theme='dark'] .theme-doc-markdown blockquote {
+[data-theme="dark"] .theme-doc-markdown blockquote {
   background: rgba(109, 209, 191, 0.12);
 }

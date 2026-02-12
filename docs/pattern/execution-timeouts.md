@@ -13,10 +13,10 @@ Stops execution when it exceeds a time budget.
 
 ## Configuration (suggested defaults)
 
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `executionTimeoutMs` | `3000` | Abort execution after a time budget. |
-| `cancellationStrategy` | `bestEffort` | Cancel ongoing work where possible. |
+| Parameter              | Default      | Notes                                |
+| ---------------------- | ------------ | ------------------------------------ |
+| `executionTimeoutMs`   | `3000`       | Abort execution after a time budget. |
+| `cancellationStrategy` | `bestEffort` | Cancel ongoing work where possible.  |
 
 ## Implementation notes
 
@@ -31,11 +31,13 @@ Stops execution when it exceeds a time budget.
 
 ## Why this is the recommended default
 
-It provides a hard ceiling on runtime cost and protects shared infrastructure from pathological queries.
+It provides a hard ceiling on runtime cost and protects shared infrastructure
+from pathological queries.
 
 ## Why users might opt out
 
-Workflows with guaranteed long-running operations may choose to increase or disable timeouts in controlled environments.
+Workflows with guaranteed long-running operations may choose to increase or
+disable timeouts in controlled environments.
 
 ## Problems addressed
 

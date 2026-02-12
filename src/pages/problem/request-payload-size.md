@@ -4,7 +4,8 @@ title: Request payload size
 
 ## What it is
 
-GraphQL requests can become large due to repeated fragments or deeply nested selections, increasing network transfer and server parsing costs.
+GraphQL requests can become large due to repeated fragments or deeply nested
+selections, increasing network transfer and server parsing costs.
 
 ## Symptoms
 
@@ -14,7 +15,8 @@ GraphQL requests can become large due to repeated fragments or deeply nested sel
 
 ## Why it matters
 
-Large payloads are expensive to transmit and parse, and they amplify the impact of traffic spikes or malicious inputs.
+Large payloads are expensive to transmit and parse, and they amplify the impact
+of traffic spikes or malicious inputs.
 
 ## Patterns that address this
 

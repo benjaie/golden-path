@@ -4,7 +4,8 @@ title: Excessive query depth
 
 ## What it is
 
-Deeply nested queries can cause exponential work or trigger worst-case behavior in resolvers and backends.
+Deeply nested queries can cause exponential work or trigger worst-case behavior
+in resolvers and backends.
 
 ## Symptoms
 

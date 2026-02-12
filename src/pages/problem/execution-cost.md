@@ -4,7 +4,8 @@ title: Execution cost spikes
 
 ## What it is
 
-Queries that are valid and small can still trigger expensive execution, such as large fan-out, expensive joins, or heavy computation.
+Queries that are valid and small can still trigger expensive execution, such as
+large fan-out, expensive joins, or heavy computation.
 
 ## Symptoms
 
@@ -14,7 +15,8 @@ Queries that are valid and small can still trigger expensive execution, such as 
 
 ## Why it matters
 
-Without predictable execution costs, default limits and SLOs become guesswork and attackers can drain resources with simple requests.
+Without predictable execution costs, default limits and SLOs become guesswork
+and attackers can drain resources with simple requests.
 
 ## Patterns that address this
 

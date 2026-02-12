@@ -13,11 +13,11 @@ Limits the size of responses to avoid large payloads or expensive computation.
 
 ## Configuration (suggested defaults)
 
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `maxNodes` | `5000` | Cap total nodes per response. |
-| `maxResponseBytes` | `1_000_000` | Cap serialized response size. |
-| `enforcement` | `reject` | Reject responses that exceed limits. |
+| Parameter          | Default     | Notes                                |
+| ------------------ | ----------- | ------------------------------------ |
+| `maxNodes`         | `5000`      | Cap total nodes per response.        |
+| `maxResponseBytes` | `1_000_000` | Cap serialized response size.        |
+| `enforcement`      | `reject`    | Reject responses that exceed limits. |
 
 ## Implementation notes
 
@@ -36,7 +36,8 @@ It prevents unbounded responses from overwhelming infrastructure and clients.
 
 ## Why users might opt out
 
-Some internal systems may accept larger responses in exchange for fewer round trips.
+Some internal systems may accept larger responses in exchange for fewer round
+trips.
 
 ## Problems addressed
 

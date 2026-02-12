@@ -13,12 +13,12 @@ Collects per-field requests, batches them, and caches results within a request.
 
 ## Configuration (suggested defaults)
 
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `enabled` | `false` | Prefer batch resolvers as the default strategy. |
-| `cacheScope` | `perRequest` | Avoid cross-request caching by default. |
-| `batchSchedule` | `microtask` | Batch within a single tick. |
-| `maxBatchSize` | `100` | Bound batch size to avoid spikes. |
+| Parameter       | Default      | Notes                                           |
+| --------------- | ------------ | ----------------------------------------------- |
+| `enabled`       | `false`      | Prefer batch resolvers as the default strategy. |
+| `cacheScope`    | `perRequest` | Avoid cross-request caching by default.         |
+| `batchSchedule` | `microtask`  | Batch within a single tick.                     |
+| `maxBatchSize`  | `100`        | Bound batch size to avoid spikes.               |
 
 ## Implementation notes
 
@@ -33,11 +33,15 @@ Collects per-field requests, batches them, and caches results within a request.
 
 ## Why this is the recommended default
 
-It generally is not. If your library can offer batch resolvers, that is the preferred default because it removes N+1 without relying on user discipline. DataLoader remains a useful alternative when resolver signatures cannot change.
+It generally is not. If your library can offer batch resolvers, that is the
+preferred default because it removes N+1 without relying on user discipline.
+DataLoader remains a useful alternative when resolver signatures cannot change.
 
 ## Why users might opt out
 
-Users may avoid DataLoader if they cannot guarantee it is wired into every resolver, or if they want to keep resolver code straightforward without additional loader lifecycle concerns.
+Users may avoid DataLoader if they cannot guarantee it is wired into every
+resolver, or if they want to keep resolver code straightforward without
+additional loader lifecycle concerns.
 
 ## Problems addressed
 

@@ -13,7 +13,8 @@ Internal errors and stack traces leak sensitive information to clients.
 
 ## Why it matters
 
-Leaked errors expose internals and make client behavior inconsistent across tools.
+Leaked errors expose internals and make client behavior inconsistent across
+tools.
 
 ## Patterns that address this
 

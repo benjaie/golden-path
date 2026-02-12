@@ -13,10 +13,10 @@ Stops validation when it exceeds a time budget.
 
 ## Configuration (suggested defaults)
 
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `validationTimeoutMs` | `250` | Abort validation after a time budget. |
-| `fallbackBehavior` | `reject` | Reject queries that exceed the timeout. |
+| Parameter             | Default  | Notes                                   |
+| --------------------- | -------- | --------------------------------------- |
+| `validationTimeoutMs` | `250`    | Abort validation after a time budget.   |
+| `fallbackBehavior`    | `reject` | Reject queries that exceed the timeout. |
 
 ## Implementation notes
 
@@ -35,7 +35,8 @@ It limits pre-execution CPU cost and reduces validation-based DoS risk.
 
 ## Why users might opt out
 
-Teams with trusted, pre-validated queries may raise or disable validation timeouts.
+Teams with trusted, pre-validated queries may raise or disable validation
+timeouts.
 
 ## Problems addressed
 

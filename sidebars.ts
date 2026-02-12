@@ -1,4 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -14,22 +14,22 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  */
 const sidebars: SidebarsConfig = {
   goldenPathSidebar: [
-    'overview',
+    "overview",
     {
-      type: 'category',
-      label: 'Patterns',
+      type: "category",
+      label: "Patterns",
       items: [
-        'pattern/batch-resolvers',
-        'pattern/batching-caching',
-        'pattern/query-composition',
-        'pattern/trusted-documents',
-        'pattern/query-complexity-limits',
-        'pattern/depth-limits',
-        'pattern/validation-timeouts',
-        'pattern/execution-timeouts',
-        'pattern/result-size-limits',
-        'pattern/error-masking',
-        'pattern/introspection-controls',
+        "pattern/batch-resolvers",
+        "pattern/batching-caching",
+        "pattern/query-composition",
+        "pattern/trusted-documents",
+        "pattern/query-complexity-limits",
+        "pattern/depth-limits",
+        "pattern/validation-timeouts",
+        "pattern/execution-timeouts",
+        "pattern/result-size-limits",
+        "pattern/error-masking",
+        "pattern/introspection-controls",
       ],
     },
   ],
