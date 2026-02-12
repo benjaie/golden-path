@@ -27,6 +27,9 @@ pre-registered document ID instead of accepting arbitrary query text.
 
 It reduces attack surface, keeps parse/validation costs predictable, and
 standardizes request behavior across tooling.
+In deployments that fully enforce trusted documents, this can remove the need
+for broad operation cost controls as a default baseline, though pagination
+limits are still recommended.
 
 ## Problems this practice solves
 

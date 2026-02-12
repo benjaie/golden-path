@@ -8,7 +8,7 @@ Limits the size of responses to avoid large payloads or expensive computation.
 
 ## Practices implemented
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Pagination limits](/practice/pagination-limits)
 
 ## Applies to
 

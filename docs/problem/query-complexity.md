@@ -21,7 +21,7 @@ Complexity-driven spikes make performance and safety hard to reason about.
 
 ## Practices that address this
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Trusted documents](/practice/trusted-documents)
 
 ## Patterns that address this
 

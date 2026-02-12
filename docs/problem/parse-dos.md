@@ -22,7 +22,6 @@ Parse-time DoS can take down a server without touching business logic.
 ## Practices that address this
 
 - [Trusted documents](/practice/trusted-documents)
-- [Operation cost controls](/practice/operation-cost-controls)
 
 ## Patterns that address this
 

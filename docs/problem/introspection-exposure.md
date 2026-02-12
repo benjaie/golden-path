@@ -21,7 +21,6 @@ Exposure increases attack surface and can reveal internal structure.
 ## Practices that address this
 
 - [Trusted documents](/practice/trusted-documents)
-- [Operation cost controls](/practice/operation-cost-controls)
 
 ## Patterns that address this
 

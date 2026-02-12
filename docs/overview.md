@@ -14,12 +14,15 @@ product code.
 
 The content is organized around three concepts:
 
-- **Practices**: what software should do by default.
-- **Problems**: failure modes users run into.
-- **Patterns**: concrete implementation approaches.
+- **Practices**: default behaviors your software should implement.
+- **Problems**: failure modes that should not occur when those practices are in
+  place.
+- **Patterns**: concrete implementation approaches used to implement a
+  practice.
 
-A practice may solve multiple problems. A practice may be implemented by one or
-more patterns.
+In short: implement the practices, and users should avoid the corresponding
+problems. Pick whichever patterns best implement those practices for your
+architecture.
 
 ## How to use this site
 
@@ -34,20 +37,23 @@ more patterns.
 
 - [Batched execution](/practice/batched-execution)
 - [Trusted documents](/practice/trusted-documents)
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Pagination limits](/practice/pagination-limits)
 - [Error surface hardening](/practice/error-surface-hardening)
 
 ### GraphQL client or client framework
 
 - [Trusted documents](/practice/trusted-documents)
 - [Query composition](/practice/query-composition)
-- [Operation cost controls](/practice/operation-cost-controls)
 
 ### Tooling (codegen, linting, schema registries)
 
 - [Trusted documents](/practice/trusted-documents)
 - [Query composition](/practice/query-composition)
-- [Operation cost controls](/practice/operation-cost-controls)
+
+## Conditional practices
+
+- [Operation cost controls](/practice/operation-cost-controls) for open/public
+  endpoints or any environment that accepts arbitrary documents.
 
 ## Status
 

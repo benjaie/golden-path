@@ -20,7 +20,7 @@ Depth-based failures are easy to trigger and hard to mitigate after the fact.
 
 ## Practices that address this
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Trusted documents](/practice/trusted-documents)
 
 ## Patterns that address this
 

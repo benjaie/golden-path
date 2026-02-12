@@ -8,6 +8,11 @@ Recommended default behaviors for GraphQL tooling and infrastructure.
 
 - [Batched execution](/practice/batched-execution)
 - [Trusted documents](/practice/trusted-documents)
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Pagination limits](/practice/pagination-limits)
 - [Error surface hardening](/practice/error-surface-hardening)
 - [Query composition](/practice/query-composition)
+
+Conditional:
+
+- [Operation cost controls](/practice/operation-cost-controls) for open/public
+  endpoints that accept arbitrary documents.

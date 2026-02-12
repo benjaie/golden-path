@@ -21,10 +21,11 @@ Runtime-based DoS is costly to recover from and difficult to diagnose.
 
 ## Practices that address this
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Pagination limits](/practice/pagination-limits)
 
 ## Patterns that address this
 
-- [Execution timeouts](/pattern/execution-timeouts)
+- [Pagination limits](/pattern/pagination-limits)
 - [Result size limits](/pattern/result-size-limits)
+- [Execution timeouts](/pattern/execution-timeouts)
 - [Query complexity limits](/pattern/query-complexity-limits)

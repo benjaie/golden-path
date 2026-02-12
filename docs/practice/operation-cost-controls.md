@@ -1,32 +1,39 @@
 ---
 title: Operation cost controls
-sidebar_position: 30
+sidebar_position: 60
 ---
 
 ## What this practice is
 
-Enforce bounded operation cost before and during execution using limits and
-timeouts.
+Enforce bounded operation cost before and during execution using complexity and
+depth limits plus validation/execution timeouts.
+
+## When to use this practice
+
+Use this when your server accepts arbitrary documents from untrusted clients
+(for example, public APIs, GraphiQL-like exploratory traffic, or third-party
+integrations).
 
 ## Applies to
 
-- GraphQL servers
-- Gateways and proxies
+- GraphQL servers with open query surfaces
+- Gateways and proxies with untrusted upstream traffic
 - Security tooling
 
 ## Suggested default parameters
 
-| Parameter             | Default | Notes                              |
-| --------------------- | ------- | ---------------------------------- |
-| `maxComplexity`       | `1000`  | Reject expensive operations early. |
-| `maxDepth`            | `12`    | Bound nesting depth.               |
-| `validationTimeoutMs` | `250`   | Bound pre-execution CPU.           |
-| `executionTimeoutMs`  | `3000`  | Bound runtime CPU/IO work.         |
+| Parameter | Default | Notes |
+| --- | --- | --- |
+| `maxComplexity` | `1000` | Reject expensive operations early. |
+| `maxDepth` | `12` | Bound nesting depth. |
+| `validationTimeoutMs` | `250` | Bound pre-execution CPU. |
+| `executionTimeoutMs` | `3000` | Bound runtime CPU/IO work. |
 
-## Why this should be default
+## Why this is conditional
 
-Without explicit ceilings, valid queries can still create denial-of-service
-conditions or severe latency variance.
+If your deployment enforces trusted documents and controlled releases, you may
+not need these controls in the default golden path. They remain useful as
+additional defense or for mixed-trust environments.
 
 ## Problems this practice solves
 
@@ -43,5 +50,4 @@ conditions or severe latency variance.
 - [Depth limits](/pattern/depth-limits)
 - [Validation timeouts](/pattern/validation-timeouts)
 - [Execution timeouts](/pattern/execution-timeouts)
-- [Result size limits](/pattern/result-size-limits)
 - [Introspection controls](/pattern/introspection-controls)

@@ -20,7 +20,6 @@ Validation is on the hot path for every query, so abuse affects all users.
 ## Practices that address this
 
 - [Trusted documents](/practice/trusted-documents)
-- [Operation cost controls](/practice/operation-cost-controls)
 
 ## Patterns that address this
 

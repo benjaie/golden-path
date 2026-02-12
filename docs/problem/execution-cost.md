@@ -21,9 +21,10 @@ Without predictable execution costs, default limits and SLOs become guesswork.
 
 ## Practices that address this
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Pagination limits](/practice/pagination-limits)
 
 ## Patterns that address this
 
+- [Pagination limits](/pattern/pagination-limits)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)

@@ -23,7 +23,9 @@ or malicious inputs.
 ## Practices that address this
 
 - [Trusted documents](/practice/trusted-documents)
+- [Pagination limits](/practice/pagination-limits)
 
 ## Patterns that address this
 
 - [Trusted documents (operation allowlist)](/pattern/trusted-documents)
+- [Pagination limits](/pattern/pagination-limits)
