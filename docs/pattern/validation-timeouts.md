@@ -2,7 +2,6 @@
 title: Validation timeouts
 ---
 
-## Summary
 
 Stops validation when it exceeds a time budget.
 

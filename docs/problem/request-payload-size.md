@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 GraphQL requests can become large due to repeated fragments or deeply nested
 selections, increasing network transfer and server parsing costs.

@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Even valid queries can cause excessive runtime work through expensive resolvers
 or large result sets.

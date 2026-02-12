@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Queries that are valid and small can still trigger expensive execution, such as
 large fan-out, expensive joins, or heavy computation.

@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Deeply nested queries can cause exponential work or trigger worst-case behavior
 in resolvers and backends.

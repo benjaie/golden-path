@@ -2,7 +2,6 @@
 title: Query composition
 ---
 
-## Summary
 
 Query composition encourages clients to assemble operations from local,
 component-owned fragments so data requirements stay close to where data is used.

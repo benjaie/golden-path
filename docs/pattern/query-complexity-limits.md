@@ -2,7 +2,6 @@
 title: Query complexity limits
 ---
 
-## Summary
 
 Complexity limits cap the estimated cost of a query before execution to prevent
 expensive operations from overwhelming systems.

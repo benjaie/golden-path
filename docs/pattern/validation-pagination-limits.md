@@ -2,7 +2,6 @@
 title: Validation pagination limits
 ---
 
-## Summary
 
 Enforce page-size and pagination-window bounds during GraphQL validation,
 including argument values supplied through variables.

@@ -2,7 +2,6 @@
 title: Depth limits
 ---
 
-## Summary
 
 Depth limits cap how deep a query can nest selections to prevent runaway
 traversal and pathological parsing.

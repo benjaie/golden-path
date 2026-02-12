@@ -2,7 +2,6 @@
 title: Trusted documents (operation allowlist)
 ---
 
-## Summary
 
 Trusted documents allow only pre-registered operations to execute, reducing
 attack surface and enabling predictable performance.

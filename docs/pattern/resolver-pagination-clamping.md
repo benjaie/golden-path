@@ -2,7 +2,6 @@
 title: Resolver pagination clamping
 ---
 
-## Summary
 
 Apply default pagination values and clamp over-limit values at resolver/data
 access boundaries.

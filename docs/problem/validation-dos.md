@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Expensive validation can be exploited by sending many large or complex queries.
 

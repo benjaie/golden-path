@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Internal errors and stack traces leak sensitive information to clients.
 

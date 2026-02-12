@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Attackers or accidental clients send extremely deep or large queries that are
 expensive to parse and validate, exhausting CPU and memory before execution.

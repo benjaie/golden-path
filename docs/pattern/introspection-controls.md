@@ -2,7 +2,6 @@
 title: Introspection controls
 ---
 
-## Summary
 
 Restricts schema introspection based on environment or authorization.
 

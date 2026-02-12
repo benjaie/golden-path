@@ -2,7 +2,6 @@
 title: Result size limits
 ---
 
-## Summary
 
 Limits the size of responses to avoid large payloads or expensive computation.
 

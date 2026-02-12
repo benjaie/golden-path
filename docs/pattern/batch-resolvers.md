@@ -2,7 +2,6 @@
 title: Batch resolvers
 ---
 
-## Summary
 
 Batch resolvers group many field resolutions into a single call so servers avoid
 N+1 database or service requests while preserving GraphQL’s shape.

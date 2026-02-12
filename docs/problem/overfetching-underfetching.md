@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Over-fetching happens when clients request more data than they render.
 Under-fetching happens when clients do not request data they need, leading to

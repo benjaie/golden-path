@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 The N+1 problem occurs when a GraphQL server resolves a list field and issues
 one follow-up query per item, resulting in N+1 backend calls.

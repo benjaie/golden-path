@@ -2,7 +2,6 @@
 title: Execution timeouts
 ---
 
-## Summary
 
 Stops execution when it exceeds a time budget.
 

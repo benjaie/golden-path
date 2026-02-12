@@ -2,7 +2,6 @@
 title: Batching and caching (DataLoader)
 ---
 
-## Summary
 
 Collects per-field requests, batches them, and caches results within a request.
 

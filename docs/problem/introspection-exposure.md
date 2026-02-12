@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Unrestricted introspection can expose schema details in environments where that
 information should be limited.

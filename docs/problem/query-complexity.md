@@ -4,7 +4,6 @@ pagination_prev: null
 pagination_next: null
 ---
 
-## What it is
 
 Queries with high field counts or expensive resolvers can overwhelm backend
 resources even if depth is limited.

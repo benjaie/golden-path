@@ -2,7 +2,6 @@
 title: Error masking
 ---
 
-## Summary
 
 Normalizes errors returned to clients and hides internal details by default.
 
