@@ -3,27 +3,16 @@ title: GraphQL Golden Path
 slug: /
 ---
 
-This site is a draft playbook for **authors of GraphQL software**: client
-libraries, servers, gateways, schema tooling, code generators, observability
-platforms, and related infrastructure. It is **not** for application developers
-who write GraphQL queries for their own apps.
+The goal of the GraphQL Golden Path is to align default behaviors, protections,
+error messages, and configuration options across the GraphQL software ecosystem
+so users start on a “golden path” that leads them to the "pit of success",
+avoiding many of the problems that naive implementation of GraphQL can lead to.
 
-The goal is to align default behaviors, protections, error messages, and
-configuration options across GraphQL tooling so users start on a “golden path”
-that leads them to the "pit of success", avoiding many of the problems that
-naive implementation of GraphQL can lead to.
-
-## Who this is for
-
-- Library and framework maintainers
-- Tooling authors (codegen, linting, registries)
-- Server, gateway, and platform teams
-- Observability and security tooling teams
-
-## Who this is not for
-
-- Application developers writing queries
-- Teams consuming a GraphQL API without maintaining GraphQL tooling
+This site is intended for authors and maintainers of GraphQL software:
+client/server libraries and frameworks, gateways, schema tooling, code
+generators, observability platforms, and related infrastructure. Though it may
+be useful for application developers who write GraphQL queries for their own
+apps, they are not the target audience.
 
 ## How to use this site
 
@@ -46,26 +35,42 @@ In practical terms, the intent is to:
 
 ## “Just works” defaults
 
-Recommended patterns should **just work** for users. If a user must put in
-effort, the default should be the **only** way to do the thing so the path of
-least resistance still lands them in the pit of success.
+Recommended patterns should **just work** for users without complex
+documentation or ongoing vigilance. If users must exert effort, the easiest way
+to achieve the goal should be the way that minimizes potential downside, such
+that the path of least resistance still lands them in the pit of success.
 
-Examples:
+For example, DataLoader is the traditional solution to the N+1 problem, but it
+requires users to know about it in the first place, and to expend the effort to
+wire it into every resolver (or throughout their business logic) manually and
+deliberately. Instead, if "batch" resolvers were the default (where instead of
+passing the "parent object", a list of parent objects is passed - essentially
+every resolver follows the DataLoader pattern), the N+1 problem is automatically
+addressed by the shape of the solution. The user doesn't need to go out of their
+way to learn a technique that they must then implement and enforce everywhere;
+instead, the technique is their default experience and straying from it is the
+advanced path.
 
-- Batch resolvers remove N+1 by default and require explicit effort to unbatch,
-  while DataLoader requires users to wire it everywhere and reason about
-  lifecycle and cache scope.
-- Combining query composition with fragment co-location and data masking ensures
-  local data requirements; adding fields to a root query won’t silently leak
-  into every component.
+Combining query composition with fragment co-location and data masking ensures
+that data requirements stay local, and root-level additions do not accidentally
+leak into every component. Making this experience the default/easiest/most
+type-safe/most concise approach helps guide users to the pit of success.
 
 ## Allowing for innovation
 
-This website is deliberately opinionated, but it is not intended to limit
-innovation. For example, encouraging co-location of data requirements and
-prevention of unrequested data access does not require a single implementation.
-A client might infer data usage via static analysis, rely on build-time typing,
-or use runtime masking—different approaches can still satisfy the same goal.
+Though intended to be a highly opinionated guide that puts new GraphQL users on
+a path that should lead to their success, it's important to recognize and
+celebrate the variety and composibility of the GraphQL ecosystem and not
+accidentally limit innovation.
+
+For example: it makes sense to encourage co-location of data requirements with
+components and prevention of accessing unrequested data, but mandating this be
+done through fragment co-location and data-masking would limit innovation. A
+client could achieve this by inferring data usage through source code and
+generating queries internally, or could rely on the build-time type system
+rather than run-time data masking, or some other approach to solve the issue. So
+long as the underlying problem(s) are solved by default out of the box, we
+should be happy!
 
 If you feel that a particular pattern is overly prescriptive, please contribute
 a PR that maintains the intent (i.e. ensures the same problems are still solved)
@@ -110,4 +115,4 @@ recommended.
 
 - GraphQL best practices: https://graphql.org/learn/best-practices/
 - GraphQL security: https://graphql.org/learn/security/
-- GraphQL query execution: https://graphql.org/learn/execution/
+- GraphQL execution: https://graphql.org/learn/execution/
