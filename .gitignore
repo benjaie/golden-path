@@ -1,5 +1,13 @@
 # Dependencies
 /node_modules
+# yarn2+ stuff
+.yarn/*
+!.yarn/releases
+!.yarn/releases/*
+!.yarn/plugins
+!.yarn/plugins/*
+!.yarn/patches
+!.yarn/patches/*
 
 # Production
 /build
