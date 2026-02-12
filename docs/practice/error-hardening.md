@@ -1,5 +1,5 @@
 ---
-title: Error surface hardening
+title: Error hardening
 sidebar_position: 40
 ---
 

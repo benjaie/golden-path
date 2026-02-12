@@ -26,6 +26,6 @@ Common failure modes these practices and patterns aim to prevent.
 9. [Introspection exposure](/problem/introspection-exposure) Practices:
    [Trusted documents](/practice/trusted-documents)
 10. [Error leakage](/problem/error-leakage) Practices:
-    [Error surface hardening](/practice/error-surface-hardening)
+    [Error hardening](/practice/error-hardening)
 11. [Over-fetching and under-fetching](/problem/overfetching-underfetching)
     Practices: [Query composition](/practice/query-composition)

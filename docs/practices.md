@@ -13,7 +13,7 @@ Core:
 - [Batched execution](/practice/batched-execution)
 - [Trusted documents](/practice/trusted-documents)
 - [Pagination limits](/practice/pagination-limits)
-- [Error surface hardening](/practice/error-surface-hardening)
+- [Error hardening](/practice/error-hardening)
 - [Query composition](/practice/query-composition)
 
 Conditional:

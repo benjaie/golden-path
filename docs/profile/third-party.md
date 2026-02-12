@@ -25,7 +25,7 @@ needing to handle untrusted documents safely; the majority of GraphQL APIs are
 
 - [Operation cost controls](/practice/operation-cost-controls)
 - [Pagination limits](/practice/pagination-limits)
-- [Error surface hardening](/practice/error-surface-hardening)
+- [Error hardening](/practice/error-hardening)
 - [Batched execution](/practice/batched-execution)
 
 ## Practice differences vs first-party

@@ -7,7 +7,7 @@ Normalizes errors returned to clients and hides internal details by default.
 
 ## Practices implemented
 
-- [Error surface hardening](/practice/error-surface-hardening)
+- [Error hardening](/practice/error-hardening)
 
 ## Applies to
 

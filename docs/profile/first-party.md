@@ -17,7 +17,7 @@ clients (web/mobile/backend clients owned by the same organization).
 - [Trusted documents](/practice/trusted-documents)
 - [Batched execution](/practice/batched-execution)
 - [Pagination limits](/practice/pagination-limits)
-- [Error surface hardening](/practice/error-surface-hardening)
+- [Error hardening](/practice/error-hardening)
 - [Query composition](/practice/query-composition) (client/tooling side)
 
 ## Optional practices
