@@ -13,7 +13,7 @@ Examples of third-party APIs are
 Third party APIs have significantly increased complexity due to the nature of
 needing to handle untrusted documents safely; the majority of GraphQL APIs are
 [first party APIs](/profile/first-party/) and can instead use
-[trusted documents](../practice/trusted-documents.md) to offset these concerns.
+[trusted documents](/practice/trusted-documents) to offset these concerns.
 
 ## Intended for
 
@@ -34,7 +34,8 @@ needing to handle untrusted documents safely; the majority of GraphQL APIs are
   explicitly cannot be used; however the network optimizations such as persisted
   queries still can.
 - Parse/validation/runtime protections should be enabled by default.
-- Introspection is usually constrained with explicit policy.
+- Introspection should be disabled by default, but SDL/schema documentation
+  should be exposed through a separate channel for integrators.
 - There's a significantly larger number of unique documents that a server is
   likely to handle, so different caching strategies may be needed.
 

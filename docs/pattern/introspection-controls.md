@@ -3,7 +3,7 @@ title: Introspection controls
 ---
 
 
-Restricts schema introspection based on environment or authorization.
+Controls schema introspection behavior by profile and authorization policy.
 
 ## Practices implemented
 
@@ -17,21 +17,22 @@ Restricts schema introspection based on environment or authorization.
 
 ## Configuration (suggested defaults)
 
-| Parameter              | Default | Notes                             |
-| ---------------------- | ------- | --------------------------------- |
-| `introspectionEnabled` | `false` | Disable in production by default. |
+| Parameter              | Default       | Notes                               |
+| ---------------------- | ------------- | ----------------------------------- |
+| `introspectionEnabled` | profile-based | `true` first-party, `false` third-party. |
 
 ## Implementation notes
 
 - Gate introspection by environment or auth scope.
 - Provide explicit errors when introspection is blocked.
-- Allow opt-in for tooling and trusted clients.
+- For third-party profiles, publish SDL/schema docs via a separate channel when
+  introspection is disabled.
 - Enforce introspection depth/list-depth via the depth-limits rule.
 
 ## Cautions
 
 - Disabling introspection can break tooling and codegen.
-- Be explicit about how users can enable it.
+- If disabled, provide a stable SDL or schema-doc endpoint for integrators.
 
 ## Problems addressed
 

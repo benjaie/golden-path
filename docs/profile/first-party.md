@@ -20,6 +20,11 @@ clients (web/mobile/backend clients owned by the same organization).
 - [Error hardening](/practice/error-hardening)
 - [Query composition](/practice/query-composition) (client/tooling side)
 
+## Introspection default
+
+- Keep introspection enabled by default for first-party APIs.
+- Enforce introspection depth/list-depth via [Depth limits](/pattern/depth-limits).
+
 ## Optional practices
 
 - [Operation cost controls](/practice/operation-cost-controls) (at client build
