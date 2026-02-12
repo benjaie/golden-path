@@ -37,6 +37,7 @@ additional defense or for mixed-trust environments.
 
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
+- [Token limits](/pattern/token-limits)
 - [Validation timeouts](/pattern/validation-timeouts)
 - [Execution timeouts](/pattern/execution-timeouts)
 - [Introspection controls](/pattern/introspection-controls)

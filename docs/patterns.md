@@ -14,6 +14,7 @@ Implementation approaches that realize one or more practices.
 - [Result size limits](/pattern/result-size-limits)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
+- [Token limits](/pattern/token-limits)
 - [Validation timeouts](/pattern/validation-timeouts)
 - [Execution timeouts](/pattern/execution-timeouts)
 - [Error masking](/pattern/error-masking)

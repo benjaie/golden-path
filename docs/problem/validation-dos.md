@@ -23,4 +23,5 @@ Validation is on the hot path for every query, so abuse affects all users.
 ## Patterns that address this
 
 - [Trusted documents (operation allowlist)](/pattern/trusted-documents)
+- [Token limits](/pattern/token-limits)
 - [Validation timeouts](/pattern/validation-timeouts)
