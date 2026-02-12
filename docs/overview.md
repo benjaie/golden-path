@@ -26,13 +26,6 @@ In short: pick a profile, implement its practices, and users should avoid the
 corresponding problems. Pick whichever patterns best implement those practices
 for your architecture.
 
-## How to use this site
-
-1. Start with [Profiles](/profiles) and choose your default deployment mode.
-2. Implement the linked [Practices](/practices) for that profile.
-3. Review [Problems](/problems) to verify intended outcomes.
-4. Choose implementation [Patterns](/patterns) that fit your architecture.
-
 ## Recommended default profile
 
 For most library consumers, default to
