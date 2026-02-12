@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunk_graphql_golden_path=globalThis.webpackChunk_graphql_golden_path||[]).push([[235],{8552(a){a.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
