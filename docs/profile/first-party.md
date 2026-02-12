@@ -20,12 +20,10 @@ clients (web/mobile/backend clients owned by the same organization).
 - [Error surface hardening](/practice/error-surface-hardening)
 - [Query composition](/practice/query-composition) (client/tooling side)
 
-## Usually not default in this profile
+## Optional practices
 
-- [Operation cost controls](/practice/operation-cost-controls)
-
-Use operation cost controls when this profile is mixed with untrusted traffic or
-ad-hoc query execution.
+- [Operation cost controls](/practice/operation-cost-controls) (at client build
+  time)
 
 ## Library author guidance
 
