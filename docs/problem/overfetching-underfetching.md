@@ -1,7 +1,5 @@
 ---
 title: Over-fetching and under-fetching
-pagination_prev: null
-pagination_next: null
 ---
 
 

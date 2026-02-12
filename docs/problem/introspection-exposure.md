@@ -1,7 +1,5 @@
 ---
 title: Introspection exposure
-pagination_prev: null
-pagination_next: null
 ---
 
 

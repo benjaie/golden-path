@@ -1,7 +1,5 @@
 ---
 title: Error leakage
-pagination_prev: null
-pagination_next: null
 ---
 
 

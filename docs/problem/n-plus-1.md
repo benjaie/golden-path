@@ -1,7 +1,5 @@
 ---
 title: N+1 queries
-pagination_prev: null
-pagination_next: null
 ---
 
 

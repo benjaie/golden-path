@@ -1,7 +1,5 @@
 ---
 title: Parse-time denial of service
-pagination_prev: null
-pagination_next: null
 ---
 
 

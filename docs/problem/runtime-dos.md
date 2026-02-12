@@ -1,7 +1,5 @@
 ---
 title: DoS via runtime execution
-pagination_prev: null
-pagination_next: null
 ---
 
 

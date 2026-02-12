@@ -1,7 +1,5 @@
 ---
 title: Excessive query complexity
-pagination_prev: null
-pagination_next: null
 ---
 
 
