@@ -3,8 +3,6 @@ title: Operation cost controls
 sidebar_position: 60
 ---
 
-## What this practice is
-
 Enforce bounded operation cost before and during execution using complexity and
 depth limits plus validation/execution timeouts.
 
@@ -20,22 +18,13 @@ integrations).
 - Gateways and proxies with untrusted upstream traffic
 - Security tooling
 
-## Suggested default parameters
-
-| Parameter | Default | Notes |
-| --- | --- | --- |
-| `maxComplexity` | `1000` | Reject expensive operations early. |
-| `maxDepth` | `12` | Bound nesting depth. |
-| `validationTimeoutMs` | `250` | Bound pre-execution CPU. |
-| `executionTimeoutMs` | `3000` | Bound runtime CPU/IO work. |
-
 ## Why this is conditional
 
 If your deployment enforces trusted documents and controlled releases, you may
 not need these controls in the default golden path. They remain useful as
 additional defense or for mixed-trust environments.
 
-## Problems this practice solves
+## Solves
 
 - [Execution cost spikes](/problem/execution-cost)
 - [Excessive query complexity](/problem/query-complexity)
@@ -44,7 +33,7 @@ additional defense or for mixed-trust environments.
 - [DoS via validation](/problem/validation-dos)
 - [DoS via runtime execution](/problem/runtime-dos)
 
-## Patterns that implement this practice
+## Implementing patterns
 
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)
