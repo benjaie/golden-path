@@ -3,10 +3,10 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 const sidebars: SidebarsConfig = {
   goldenPathSidebar: [
     "overview",
-    "practices",
     {
       type: "category",
-      label: "Practice Details",
+      label: "Practices",
+      link: { type: "doc", id: "practices" },
       items: [
         "practice/batched-execution",
         "practice/trusted-documents",
@@ -16,10 +16,10 @@ const sidebars: SidebarsConfig = {
         "practice/operation-cost-controls",
       ],
     },
-    "patterns",
     {
       type: "category",
-      label: "Pattern Details",
+      label: "Patterns",
+      link: { type: "doc", id: "patterns" },
       items: [
         "pattern/batch-resolvers",
         "pattern/batching-caching",
@@ -36,7 +36,24 @@ const sidebars: SidebarsConfig = {
         "pattern/query-composition",
       ],
     },
-    "problems",
+    {
+      type: "category",
+      label: "Problems",
+      link: { type: "doc", id: "problems" },
+      items: [
+        "problem/n-plus-1",
+        "problem/request-payload-size",
+        "problem/parse-dos",
+        "problem/validation-dos",
+        "problem/runtime-dos",
+        "problem/execution-cost",
+        "problem/query-complexity",
+        "problem/query-depth",
+        "problem/introspection-exposure",
+        "problem/error-leakage",
+        "problem/overfetching-underfetching",
+      ],
+    },
   ],
 };
 
