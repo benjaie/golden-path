@@ -1,5 +1,7 @@
 ---
 title: Introspection exposure
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -16,7 +18,12 @@ information should be limited.
 
 Exposure increases attack surface and can reveal internal structure.
 
+## Practices that address this
+
+- [Trusted documents](/practice/trusted-documents)
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Patterns that address this
 
 - [Introspection controls](/pattern/introspection-controls)
-- [Trusted documents](/pattern/trusted-documents)
+- [Trusted documents (operation allowlist)](/pattern/trusted-documents)

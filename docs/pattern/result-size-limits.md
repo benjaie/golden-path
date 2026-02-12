@@ -6,6 +6,10 @@ title: Result size limits
 
 Limits the size of responses to avoid large payloads or expensive computation.
 
+## Practices implemented
+
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Applies to
 
 - GraphQL servers
@@ -29,15 +33,6 @@ Limits the size of responses to avoid large payloads or expensive computation.
 
 - Limits can surprise users if defaults are too low.
 - Counting bytes may require buffering.
-
-## Why this is the recommended default
-
-It prevents unbounded responses from overwhelming infrastructure and clients.
-
-## Why users might opt out
-
-Some internal systems may accept larger responses in exchange for fewer round
-trips.
 
 ## Problems addressed
 

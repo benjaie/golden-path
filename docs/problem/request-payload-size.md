@@ -1,5 +1,7 @@
 ---
 title: Request payload size
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -15,9 +17,13 @@ selections, increasing network transfer and server parsing costs.
 
 ## Why it matters
 
-Large payloads are expensive to transmit and parse, and they amplify the impact
-of traffic spikes or malicious inputs.
+Large payloads are expensive to transmit and parse, and amplify traffic spikes
+or malicious inputs.
+
+## Practices that address this
+
+- [Trusted documents](/practice/trusted-documents)
 
 ## Patterns that address this
 
-- [Trusted documents](/pattern/trusted-documents)
+- [Trusted documents (operation allowlist)](/pattern/trusted-documents)

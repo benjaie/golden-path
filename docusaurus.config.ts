@@ -75,9 +75,12 @@ const config: Config = {
         src: "img/graphql-logo.svg",
       },
       items: [
-        { to: "/pattern/batch-resolvers", label: "Patterns", position: "left" },
+        { to: "/", label: "Overview", position: "left" },
+        { to: "/practices", label: "Practices", position: "left" },
+        { to: "/patterns", label: "Patterns", position: "left" },
+        { to: "/problems", label: "Problems", position: "left" },
         {
-          href: "https://github.com/graphql",
+          href: "https://github.com/benjaie/golden-path",
           label: "GitHub",
           position: "right",
         },
@@ -89,6 +92,18 @@ const config: Config = {
         {
           title: "Docs",
           items: [
+            {
+              label: "Practices",
+              to: "/practices",
+            },
+            {
+              label: "Patterns",
+              to: "/patterns",
+            },
+            {
+              label: "Problems",
+              to: "/problems",
+            },
             {
               label: "Overview",
               to: "/",
@@ -113,7 +128,7 @@ const config: Config = {
           items: [
             {
               label: "Patterns",
-              to: "/pattern/batch-resolvers",
+              to: "/patterns",
             },
           ],
         },

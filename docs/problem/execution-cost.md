@@ -1,5 +1,7 @@
 ---
 title: Execution cost spikes
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -15,8 +17,11 @@ large fan-out, expensive joins, or heavy computation.
 
 ## Why it matters
 
-Without predictable execution costs, default limits and SLOs become guesswork
-and attackers can drain resources with simple requests.
+Without predictable execution costs, default limits and SLOs become guesswork.
+
+## Practices that address this
+
+- [Operation cost controls](/practice/operation-cost-controls)
 
 ## Patterns that address this
 

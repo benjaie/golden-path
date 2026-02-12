@@ -1,5 +1,7 @@
 ---
 title: DoS via validation
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -15,7 +17,12 @@ Expensive validation can be exploited by sending many large or complex queries.
 
 Validation is on the hot path for every query, so abuse affects all users.
 
+## Practices that address this
+
+- [Trusted documents](/practice/trusted-documents)
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Patterns that address this
 
-- [Trusted documents](/pattern/trusted-documents)
+- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
 - [Validation timeouts](/pattern/validation-timeouts)

@@ -6,6 +6,10 @@ title: Introspection controls
 
 Restricts schema introspection based on environment or authorization.
 
+## Practices implemented
+
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Applies to
 
 - GraphQL servers
@@ -30,16 +34,6 @@ Restricts schema introspection based on environment or authorization.
 
 - Disabling introspection can break tooling and codegen.
 - Be explicit about how users can enable it.
-
-## Why this is the recommended default
-
-It reduces schema exposure in production while still allowing controlled access
-for trusted tooling.
-
-## Why users might opt out
-
-Teams with private APIs or internal-only usage may keep introspection enabled to
-simplify tooling.
 
 ## Problems addressed
 

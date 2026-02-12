@@ -6,6 +6,10 @@ title: Batching and caching (DataLoader)
 
 Collects per-field requests, batches them, and caches results within a request.
 
+## Practices implemented
+
+- [Batched execution](/practice/batched-execution)
+
 ## Applies to
 
 - GraphQL servers
@@ -30,18 +34,6 @@ Collects per-field requests, batches them, and caches results within a request.
 
 - Inconsistent usage causes fragmented batches and degraded performance.
 - Cross-request caches can leak data if not keyed by auth context.
-
-## Why this is the recommended default
-
-It generally is not. If your library can offer batch resolvers, that is the
-preferred default because it removes N+1 without relying on user discipline.
-DataLoader remains a useful alternative when resolver signatures cannot change.
-
-## Why users might opt out
-
-Users may avoid DataLoader if they cannot guarantee it is wired into every
-resolver, or if they want to keep resolver code straightforward without
-additional loader lifecycle concerns.
 
 ## Problems addressed
 

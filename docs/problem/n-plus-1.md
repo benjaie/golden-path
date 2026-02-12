@@ -1,5 +1,7 @@
 ---
 title: N+1 queries
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -16,8 +18,12 @@ one follow-up query per item, resulting in N+1 backend calls.
 ## Why it matters
 
 N+1 leads to unpredictable performance and makes it hard to set safe defaults.
-It is one of the most common reasons GraphQL deployments degrade over time.
+
+## Practices that address this
+
+- [Batched execution](/practice/batched-execution)
 
 ## Patterns that address this
 
 - [Batch resolvers](/pattern/batch-resolvers)
+- [Batching and caching (DataLoader)](/pattern/batching-caching)

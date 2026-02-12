@@ -15,13 +15,14 @@ those developers use.
 - Identify common problems that users face, especially issues that cause
   frustration, disillusionment, or are hard to rectify if not addressed from the
   start.
-- Identify and specify the patterns that libraries/tooling/frameworks should put
-  in place so that users never meet these problems.
+- Identify and specify the practices that libraries/tooling/frameworks should
+  put in place so that users never meet these problems.
+- Document implementation patterns that can realize each practice.
 - Define common names for these techniques/patterns and their parameters, and
   determine the recommended defaults and configuration parameters.
-- Explain why each pattern exists, why it is the recommended default, and when
+- Explain why each practice exists, why it is the recommended default, and when
   it may be reasonable for a user to opt out.
-- Connect patterns to the concrete problems they solve.
+- Connect practices and patterns to the concrete problems they solve.
 - Don't be overly prescriptive, allow space for innovation.
 
 The long-term aim is that GraphQL tooling can provide a consistent, safe, and

@@ -7,6 +7,10 @@ title: Depth limits
 Depth limits cap how deep a query can nest selections to prevent runaway
 traversal and pathological parsing.
 
+## Practices implemented
+
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Applies to
 
 - GraphQL servers
@@ -29,25 +33,9 @@ traversal and pathological parsing.
 
 ## Cautions
 
-- Too-low defaults can break legitimate use cases (e.g., polymorphic graphs).
+- Too-low defaults can break legitimate use cases.
 - Introspection depth should be separate from app queries.
 - Depth limits do not replace complexity limits; use both.
-
-## Why this is the recommended default
-
-Depth limits are simple and fast to enforce, and they stop a large class of
-pathological queries before execution. They are an easy, consistent baseline
-across tooling.
-
-## Why users might opt out
-
-If every operation is trusted and curated, users might allow deeper queries in
-specific contexts (e.g., internal tooling or schema inspection workflows). Some
-systems also rely solely on complexity limits.
-
-The risk is that deeply nested queries can exhaust parser and validator
-resources before execution even starts. Depth limits are recommended because
-they are simple, deterministic, and fast to enforce.
 
 ## Problems addressed
 

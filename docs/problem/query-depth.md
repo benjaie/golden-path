@@ -1,5 +1,7 @@
 ---
 title: Excessive query depth
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -16,7 +18,11 @@ in resolvers and backends.
 
 Depth-based failures are easy to trigger and hard to mitigate after the fact.
 
+## Practices that address this
+
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Patterns that address this
 
 - [Depth limits](/pattern/depth-limits)
-- [Trusted documents](/pattern/trusted-documents)
+- [Trusted documents (operation allowlist)](/pattern/trusted-documents)

@@ -6,6 +6,10 @@ title: Execution timeouts
 
 Stops execution when it exceeds a time budget.
 
+## Practices implemented
+
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Applies to
 
 - GraphQL servers
@@ -28,16 +32,6 @@ Stops execution when it exceeds a time budget.
 
 - Long-running operations may fail unexpectedly.
 - Cancellation support varies across runtimes.
-
-## Why this is the recommended default
-
-It provides a hard ceiling on runtime cost and protects shared infrastructure
-from pathological queries.
-
-## Why users might opt out
-
-Workflows with guaranteed long-running operations may choose to increase or
-disable timeouts in controlled environments.
 
 ## Problems addressed
 

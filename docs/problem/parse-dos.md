@@ -1,5 +1,7 @@
 ---
 title: Parse-time denial of service
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -15,10 +17,14 @@ expensive to parse and validate, exhausting CPU and memory before execution.
 
 ## Why it matters
 
-Parse-time DoS can take down a server without touching business logic, which
-makes it easy to exploit and hard to mitigate after the fact.
+Parse-time DoS can take down a server without touching business logic.
+
+## Practices that address this
+
+- [Trusted documents](/practice/trusted-documents)
+- [Operation cost controls](/practice/operation-cost-controls)
 
 ## Patterns that address this
 
 - [Depth limits](/pattern/depth-limits)
-- [Trusted documents](/pattern/trusted-documents)
+- [Trusted documents (operation allowlist)](/pattern/trusted-documents)

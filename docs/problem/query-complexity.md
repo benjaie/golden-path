@@ -1,5 +1,7 @@
 ---
 title: Excessive query complexity
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -15,10 +17,13 @@ resources even if depth is limited.
 
 ## Why it matters
 
-Complexity-driven spikes make performance and safety hard to reason about,
-especially for new users.
+Complexity-driven spikes make performance and safety hard to reason about.
+
+## Practices that address this
+
+- [Operation cost controls](/practice/operation-cost-controls)
 
 ## Patterns that address this
 
 - [Query complexity limits](/pattern/query-complexity-limits)
-- [Trusted documents](/pattern/trusted-documents)
+- [Trusted documents (operation allowlist)](/pattern/trusted-documents)

@@ -6,6 +6,10 @@ title: Validation timeouts
 
 Stops validation when it exceeds a time budget.
 
+## Practices implemented
+
+- [Operation cost controls](/practice/operation-cost-controls)
+
 ## Applies to
 
 - GraphQL servers
@@ -28,15 +32,6 @@ Stops validation when it exceeds a time budget.
 
 - Complex schemas may require higher timeouts.
 - Timeouts can hide performance regressions if not monitored.
-
-## Why this is the recommended default
-
-It limits pre-execution CPU cost and reduces validation-based DoS risk.
-
-## Why users might opt out
-
-Teams with trusted, pre-validated queries may raise or disable validation
-timeouts.
 
 ## Problems addressed
 

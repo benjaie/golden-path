@@ -1,5 +1,7 @@
 ---
 title: DoS via runtime execution
+pagination_prev: null
+pagination_next: null
 ---
 
 ## What it is
@@ -15,8 +17,11 @@ or large result sets.
 
 ## Why it matters
 
-Runtime-based DoS is costly to recover from and difficult to diagnose in
-production.
+Runtime-based DoS is costly to recover from and difficult to diagnose.
+
+## Practices that address this
+
+- [Operation cost controls](/practice/operation-cost-controls)
 
 ## Patterns that address this
 
