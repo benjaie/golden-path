@@ -24,7 +24,6 @@ const sidebars: SidebarsConfig = {
         "pattern/batch-resolvers",
         "pattern/batching-caching",
         "pattern/trusted-documents",
-        "pattern/build-bounded-pagination",
         "pattern/validation-pagination-limits",
         "pattern/resolver-pagination-clamping",
         "pattern/result-size-limits",

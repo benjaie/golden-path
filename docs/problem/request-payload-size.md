@@ -28,6 +28,5 @@ or malicious inputs.
 ## Patterns that address this
 
 - [Trusted documents (operation allowlist)](/pattern/trusted-documents)
-- [Build bounded pagination](/pattern/build-bounded-pagination)
 - [Validation pagination limits](/pattern/validation-pagination-limits)
 - [Resolver pagination clamping](/pattern/resolver-pagination-clamping)

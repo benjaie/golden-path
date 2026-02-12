@@ -34,7 +34,6 @@ request too much data unless pagination is bounded.
 
 ## Patterns that implement this practice
 
-- [Build bounded pagination](/pattern/build-bounded-pagination)
 - [Validation pagination limits](/pattern/validation-pagination-limits)
 - [Resolver pagination clamping](/pattern/resolver-pagination-clamping)
 - [Result size limits](/pattern/result-size-limits)
