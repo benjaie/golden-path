@@ -28,4 +28,4 @@ or malicious inputs.
 
 - [Trusted documents (operation allowlist)](/pattern/trusted-documents)
 - [Validation pagination limits](/pattern/validation-pagination-limits)
-- [Resolver pagination clamping](/pattern/resolver-pagination-clamping)
+- [Resolver pagination limits](/pattern/resolver-pagination-limits)

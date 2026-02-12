@@ -25,6 +25,6 @@ Without predictable execution costs, default limits and SLOs become guesswork.
 ## Patterns that address this
 
 - [Validation pagination limits](/pattern/validation-pagination-limits)
-- [Resolver pagination clamping](/pattern/resolver-pagination-clamping)
+- [Resolver pagination limits](/pattern/resolver-pagination-limits)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)

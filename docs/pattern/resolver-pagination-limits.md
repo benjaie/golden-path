@@ -1,10 +1,10 @@
 ---
-title: Resolver pagination clamping
+title: Resolver pagination limits
 ---
 
 
-Apply default pagination values and clamp over-limit values at resolver/data
-access boundaries.
+Apply default pagination values and enforce page/window bounds at
+resolver/data-access boundaries.
 
 ## Practices implemented
 
@@ -20,15 +20,18 @@ access boundaries.
 | Parameter | Default | Notes |
 | --- | --- | --- |
 | `defaultPageSize` | `20` | Applied if absent in resolver args. |
-| `maxPageSize` | `100` | Clamp values above the limit. |
-| `maxPaginationWindow` | `1000` | Clamp or reject large windows. |
-| `enforcement` | `clamp` | Prefer compatibility with legacy clients. |
+| `maxPageSize` | `100` | Upper bound for page-size arguments. |
+| `maxPaginationWindow` | `1000` | Upper bound for overall window arguments. |
+| `enforcement` | `clamp` | One of: `clamp`, `reject`, `warn`. |
 
 ## Implementation notes
 
 - Enforce before database/downstream calls.
 - Centralize in shared resolver wrappers or data-access layer.
 - Emit warnings/metrics when clamping occurs.
+- `clamp`: coerce out-of-bounds values to configured limits.
+- `reject`: return an explicit client error when values exceed limits.
+- `warn`: allow request but emit warnings/metrics for visibility.
 
 ## Cautions
 

@@ -10,7 +10,7 @@ Implementation approaches that realize one or more practices.
 - [Batching and caching (DataLoader)](/pattern/batching-caching)
 - [Trusted documents (operation allowlist)](/pattern/trusted-documents)
 - [Validation pagination limits](/pattern/validation-pagination-limits)
-- [Resolver pagination clamping](/pattern/resolver-pagination-clamping)
+- [Resolver pagination limits](/pattern/resolver-pagination-limits)
 - [Result size limits](/pattern/result-size-limits)
 - [Query complexity limits](/pattern/query-complexity-limits)
 - [Depth limits](/pattern/depth-limits)

@@ -25,5 +25,5 @@ request too much data unless pagination is bounded.
 ## Implementing patterns
 
 - [Validation pagination limits](/pattern/validation-pagination-limits)
-- [Resolver pagination clamping](/pattern/resolver-pagination-clamping)
+- [Resolver pagination limits](/pattern/resolver-pagination-limits)
 - [Result size limits](/pattern/result-size-limits)
