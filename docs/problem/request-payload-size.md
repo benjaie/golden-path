@@ -28,6 +28,6 @@ or malicious inputs.
 ## Patterns that address this
 
 - [Trusted documents (operation allowlist)](/pattern/trusted-documents)
-- [Build-time bounded pagination](/pattern/build-time-bounded-pagination)
-- [Validation-time pagination limits](/pattern/validation-time-pagination-limits)
-- [Resolver-time pagination clamping](/pattern/resolver-time-pagination-clamping)
+- [Build bounded pagination](/pattern/build-bounded-pagination)
+- [Validation pagination limits](/pattern/validation-pagination-limits)
+- [Resolver pagination clamping](/pattern/resolver-pagination-clamping)

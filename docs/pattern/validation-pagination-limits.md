@@ -1,5 +1,5 @@
 ---
-title: Validation-time pagination limits
+title: Validation pagination limits
 ---
 
 ## Summary

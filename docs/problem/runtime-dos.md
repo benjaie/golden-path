@@ -25,9 +25,9 @@ Runtime-based DoS is costly to recover from and difficult to diagnose.
 
 ## Patterns that address this
 
-- [Build-time bounded pagination](/pattern/build-time-bounded-pagination)
-- [Validation-time pagination limits](/pattern/validation-time-pagination-limits)
-- [Resolver-time pagination clamping](/pattern/resolver-time-pagination-clamping)
+- [Build bounded pagination](/pattern/build-bounded-pagination)
+- [Validation pagination limits](/pattern/validation-pagination-limits)
+- [Resolver pagination clamping](/pattern/resolver-pagination-clamping)
 - [Result size limits](/pattern/result-size-limits)
 - [Execution timeouts](/pattern/execution-timeouts)
 - [Query complexity limits](/pattern/query-complexity-limits)

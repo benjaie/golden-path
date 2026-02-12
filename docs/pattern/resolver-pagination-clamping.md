@@ -1,5 +1,5 @@
 ---
-title: Resolver-time pagination clamping
+title: Resolver pagination clamping
 ---
 
 ## Summary

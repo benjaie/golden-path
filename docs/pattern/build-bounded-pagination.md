@@ -1,5 +1,5 @@
 ---
-title: Build-time bounded pagination
+title: Build bounded pagination
 ---
 
 ## Summary
