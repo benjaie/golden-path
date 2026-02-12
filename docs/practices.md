@@ -1,10 +1,14 @@
 ---
 title: Practices
 slug: /practices
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Recommended default behaviors for GraphQL tooling and infrastructure.
+
+Choose a [Profile](/profiles) first, then apply the matching practice set.
+
+Core:
 
 - [Batched execution](/practice/batched-execution)
 - [Trusted documents](/practice/trusted-documents)

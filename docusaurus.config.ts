@@ -75,6 +75,7 @@ const config: Config = {
         src: "img/graphql-logo.svg",
       },
       items: [
+        { to: "/profiles", label: "Profiles", position: "left" },
         { to: "/practices", label: "Practices", position: "left" },
         { to: "/patterns", label: "Patterns", position: "left" },
         { to: "/problems", label: "Problems", position: "left" },
@@ -91,6 +92,10 @@ const config: Config = {
         {
           title: "Docs",
           items: [
+            {
+              label: "Profiles",
+              to: "/profiles",
+            },
             {
               label: "Practices",
               to: "/practices",

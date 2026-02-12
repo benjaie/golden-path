@@ -12,48 +12,34 @@ product code.
 
 ## Model
 
-The content is organized around three concepts:
+The content is organized around four concepts:
 
+- **Profiles**: deployment-oriented bundles of defaults (for example,
+  first-party vs public API).
 - **Practices**: default behaviors your software should implement.
 - **Problems**: failure modes that should not occur when those practices are in
   place.
 - **Patterns**: concrete implementation approaches used to implement a
   practice.
 
-In short: implement the practices, and users should avoid the corresponding
-problems. Pick whichever patterns best implement those practices for your
-architecture.
+In short: pick a profile, implement its practices, and users should avoid the
+corresponding problems. Pick whichever patterns best implement those practices
+for your architecture.
 
 ## How to use this site
 
-1. Start with [Practices](/practices) and pick the ones your software category
-   should implement by default.
-2. Review the linked [Problems](/problems) to understand the intended outcomes.
-3. Choose implementation [Patterns](/patterns) that best fit your architecture.
+1. Start with [Profiles](/profiles) and choose your default deployment mode.
+2. Implement the linked [Practices](/practices) for that profile.
+3. Review [Problems](/problems) to verify intended outcomes.
+4. Choose implementation [Patterns](/patterns) that fit your architecture.
 
-## By software category
+## Recommended default profile
 
-### GraphQL server, gateway, or proxy
+For most library consumers, default to
+[First-party APIs](/profile/first-party).
 
-- [Batched execution](/practice/batched-execution)
-- [Trusted documents](/practice/trusted-documents)
-- [Pagination limits](/practice/pagination-limits)
-- [Error surface hardening](/practice/error-surface-hardening)
-
-### GraphQL client or client framework
-
-- [Trusted documents](/practice/trusted-documents)
-- [Query composition](/practice/query-composition)
-
-### Tooling (codegen, linting, schema registries)
-
-- [Trusted documents](/practice/trusted-documents)
-- [Query composition](/practice/query-composition)
-
-## Conditional practices
-
-- [Operation cost controls](/practice/operation-cost-controls) for open/public
-  endpoints or any environment that accepts arbitrary documents.
+Offer [Public APIs](/profile/public-api) as an explicit opt-in profile for
+untrusted/ad-hoc document use cases.
 
 ## Status
 
