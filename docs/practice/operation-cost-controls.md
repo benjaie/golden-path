@@ -9,8 +9,8 @@ depth limits plus validation/execution timeouts.
 ## When to use this practice
 
 Use this when your server accepts arbitrary documents from untrusted clients
-(for example, public APIs, GraphiQL-like exploratory traffic, or third-party
-integrations).
+(for example, third-party APIs, GraphiQL-like exploratory traffic, or
+third-party integrations).
 
 ## Applies to
 

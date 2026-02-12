@@ -1,10 +1,12 @@
 ---
-title: Public APIs (opt-in)
+title: Third-party APIs (opt-in)
 sidebar_position: 20
 ---
 
 Use this profile when an API must accept documents authored by untrusted or
 third-party clients.
+
+Third-party means third parties can author and submit GraphQL documents.
 
 ## Intended for
 
@@ -30,6 +32,6 @@ third-party clients.
 
 Expose this as an explicit opt-in mode, for example:
 
-- `profile: "public-api"`
+- `profile: "third-party"`
 
 Allow per-practice overrides, but start from strict defaults.

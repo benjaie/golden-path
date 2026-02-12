@@ -15,7 +15,7 @@ product code.
 The content is organized around four concepts:
 
 - **Profiles**: deployment-oriented bundles of defaults (for example,
-  first-party vs public API).
+  first-party vs third-party APIs).
 - **Practices**: default behaviors your software should implement.
 - **Problems**: failure modes that should not occur when those practices are in
   place.
@@ -31,8 +31,8 @@ for your architecture.
 For most library consumers, default to
 [First-party APIs](/profile/first-party).
 
-Offer [Public APIs](/profile/public-api) as an explicit opt-in profile for
-untrusted/ad-hoc document use cases.
+Offer [Third-party APIs](/profile/third-party) as an explicit opt-in profile
+for untrusted/ad-hoc document use cases.
 
 ## Status
 

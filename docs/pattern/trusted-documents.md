@@ -34,7 +34,7 @@ attack surface and enabling predictable performance.
 
 ## Cautions
 
-- Public APIs may need to opt out or run in hybrid mode.
+- Third-party APIs may need to opt out or run in hybrid mode.
 - Align client and server hash algorithms and canonicalization.
 - Ensure tooling can safely roll back or revoke documents.
 
