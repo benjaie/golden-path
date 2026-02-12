@@ -17,17 +17,16 @@ Restricts schema introspection based on environment or authorization.
 
 ## Configuration (suggested defaults)
 
-| Parameter                 | Default | Notes                                      |
-| ------------------------- | ------- | ------------------------------------------ |
-| `introspectionEnabled`    | `false` | Disable in production by default.          |
-| `introspectionAllowlist`  | `[]`    | Optional list of allowed clients or roles. |
-| `introspectionDepthLimit` | `6`     | Keep introspection bounded.                |
+| Parameter              | Default | Notes                             |
+| ---------------------- | ------- | --------------------------------- |
+| `introspectionEnabled` | `false` | Disable in production by default. |
 
 ## Implementation notes
 
 - Gate introspection by environment or auth scope.
 - Provide explicit errors when introspection is blocked.
 - Allow opt-in for tooling and trusted clients.
+- Enforce introspection depth/list-depth via the depth-limits rule.
 
 ## Cautions
 
