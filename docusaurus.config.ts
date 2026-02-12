@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "GraphQL Golden Path",
   tagline: "Opinionated defaults for GraphQL tooling, clients, and servers",
-  favicon: "img/favicon.ico",
+  favicon: "img/graphql-logo.svg",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -64,7 +64,7 @@ const config: Config = {
       isCloseable: false,
     },
     // Replace with your project's social card
-    image: "img/logo.svg",
+    image: "img/graphql-logo.svg",
     colorMode: {
       respectPrefersColorScheme: true,
     },
