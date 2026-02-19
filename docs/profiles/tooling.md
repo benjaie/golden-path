@@ -12,10 +12,15 @@ code generators, or IDE/language tooling.
 - Breaking change detection and policy gates
 - Usage analytics and deprecation-safe removal workflows
 - Query composition and operation lifecycle tooling
+- Cursor pagination contract enforcement
+
+## Recommended practices
+
+- [Cursor pagination](/practices/cursor-pagination)
 
 ## Recommended patterns
 
-- [Connections](/patterns/connections)
+- [Cursor Connections](/patterns/cursor-connections)
 - [Versionless schema design](/patterns/versionless-schema-design)
 - [Mutation input objects](/patterns/mutation-input-objects)
 - [Mutation payloads](/patterns/mutation-payloads)

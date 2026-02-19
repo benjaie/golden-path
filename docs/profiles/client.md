@@ -12,10 +12,11 @@ vs third-party profiles.
 
 - [Query composition](/practices/query-composition)
 - [Trusted documents](/practices/trusted-documents)
+- [Cursor pagination](/practices/cursor-pagination)
 
 ## Recommended patterns
 
-- [Connections](/patterns/connections)
+- [Cursor Connections](/patterns/cursor-connections)
 - [Trusted documents (operation allowlist)](/patterns/trusted-documents)
 - [Query composition](/patterns/query-composition)
 

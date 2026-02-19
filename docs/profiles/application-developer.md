@@ -9,7 +9,8 @@ This site is primarily targeted at schema and ecosystem implementers, but these
 patterns are especially relevant to app developers:
 
 - [Query composition](/practices/query-composition)
-- [Connections](/patterns/connections)
+- [Cursor pagination](/practices/cursor-pagination)
+- [Cursor Connections](/patterns/cursor-connections)
 - [Trusted documents (operation allowlist)](/patterns/trusted-documents)
 
 ## What to expect from a healthy platform

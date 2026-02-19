@@ -8,7 +8,7 @@ Implementation approaches that realize one or more practices.
 
 ## Schema design and client compatibility
 
-- [Connections](/patterns/connections)
+- [Cursor Connections](/patterns/cursor-connections)
 - [Versionless schema design](/patterns/versionless-schema-design)
 - [Mutation input objects](/patterns/mutation-input-objects)
 - [Mutation payloads](/patterns/mutation-payloads)

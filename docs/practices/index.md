@@ -12,6 +12,7 @@ Core:
 
 - [Batched execution](/practices/batched-execution)
 - [Trusted documents](/practices/trusted-documents)
+- [Cursor pagination](/practices/cursor-pagination)
 - [Pagination limits](/practices/pagination-limits)
 - [Error hardening](/practices/error-hardening)
 - [Query composition](/practices/query-composition)

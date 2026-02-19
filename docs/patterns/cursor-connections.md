@@ -1,9 +1,13 @@
 ---
-title: Connections
+title: Cursor Connections
 ---
 
-Connections provide a consistent contract for paginated lists using edges,
+Cursor Connections provide a consistent contract for paginated lists using edges,
 cursors, and page metadata.
+
+## Practices implemented
+
+- [Cursor pagination](/practices/cursor-pagination)
 
 ## Implementer guidance
 

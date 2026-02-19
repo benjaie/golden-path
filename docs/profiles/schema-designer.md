@@ -12,9 +12,13 @@ organization.
 - Keep schema evolution safe and observable.
 - Enforce consistency through automated checks.
 
+## Recommended practices
+
+- [Cursor pagination](/practices/cursor-pagination)
+
 ## Recommended patterns to implement
 
-- [Connections](/patterns/connections)
+- [Cursor Connections](/patterns/cursor-connections)
 - [Versionless schema design](/patterns/versionless-schema-design)
 - [Mutation input objects](/patterns/mutation-input-objects)
 - [Mutation payloads](/patterns/mutation-payloads)

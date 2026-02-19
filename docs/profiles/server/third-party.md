@@ -17,12 +17,14 @@ more complex protections against malicious requests; we recommend implementing a
 ## Recommended practices
 
 - [Operation cost controls](/practices/operation-cost-controls)
+- [Cursor pagination](/practices/cursor-pagination)
 - [Pagination limits](/practices/pagination-limits)
 - [Error hardening](/practices/error-hardening)
 - [Batched execution](/practices/batched-execution)
 
 ## Recommended patterns
 
+- [Cursor Connections](/patterns/cursor-connections)
 - [Query complexity limits](/patterns/query-complexity-limits)
 - [Depth limits](/patterns/depth-limits)
 - [Token limits](/patterns/token-limits)

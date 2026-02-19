@@ -14,12 +14,14 @@ APIs powering websites, mobile and desktop apps.
 
 - [Trusted documents](/practices/trusted-documents)
 - [Batched execution](/practices/batched-execution)
+- [Cursor pagination](/practices/cursor-pagination)
 - [Pagination limits](/practices/pagination-limits)
 - [Error hardening](/practices/error-hardening)
 
 ## Recommended patterns
 
 - [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Cursor Connections](/patterns/cursor-connections)
 - [Batch resolvers](/patterns/batch-resolvers)
 - [Validation pagination limits](/patterns/validation-pagination-limits)
 - [Resolver pagination limits](/patterns/resolver-pagination-limits)
