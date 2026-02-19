@@ -3,36 +3,53 @@ title: GraphQL Golden Path
 slug: /
 ---
 
-The GraphQL Golden Path is a draft guide for people who build GraphQL software:
-server engines, gateways, clients, code generators, schema tooling, and
-observability platforms.
+The GraphQL Golden Path is a draft guide for people designing and implementing
+GraphQL systems.
 
-It is **not** written for application developers who consume GraphQL APIs in
-product code.
+It is organized so visitors can enter based on their role, then apply the
+practices and patterns most relevant to that role.
+
+## Terminology
+
+- **Organization**: the entity using GraphQL to deliver experiences to
+  employees, constituents, partners, or customers. This includes businesses,
+  nonprofits, government agencies, and similar institutions.
+- **Community**: the broader GraphQL ecosystem of clients, servers, tooling,
+  documentation, and other off-the-shelf resources.
+
+### Organization implementers
+
+- **Schema designer**: designs and evolves the GraphQL schema and resolvers to
+  meet organizational and application needs.
+- **Application developer**: consumes the schema to build applications (web,
+  mobile, desktop, backend).
+
+### Community implementers
+
+- **Server**: an off-the-shelf library or framework that exposes a GraphQL
+  schema.
+- **Client**: an off-the-shelf library or framework that executes operations and
+  exposes results to application code.
+- **Tooling**: supporting tools such as linters, schema diffing, codegen,
+  language servers, and IDE integrations.
 
 ## Model
 
 The content is organized around four concepts:
 
-- **Profiles**: deployment-oriented bundles of defaults (for example,
-  first-party vs third-party APIs).
-- **Practices**: default behaviors your software should implement.
-- **Problems**: failure modes that should not occur when those practices are in
-  place.
-- **Patterns**: concrete implementation approaches used to implement a
-  practice.
+- **Profiles**: visitor-oriented entrypoints that map role and deployment
+  context to recommended practices.
+- **Practices**: default behaviors you should adopt.
+- **Patterns**: concrete implementation approaches used to implement practices.
+- **Problems**: failure modes these practices and patterns are intended to
+  prevent.
 
-In short: pick a profile, implement its practices, and users should avoid the
-corresponding problems. Pick whichever patterns best implement those practices
-for your architecture.
+In short: choose your profile, implement the linked practices by picking and
+appling one or more patterns for your implementer type.
 
-## Recommended default profile
+## Get started
 
-For most library consumers, default to
-[First-party APIs](/profile/first-party).
-
-Offer [Third-party APIs](/profile/third-party) as an explicit opt-in profile
-for untrusted/ad-hoc document use cases.
+Go to [Profiles](/profiles) to choose your role and deployment context.
 
 ## Status
 
