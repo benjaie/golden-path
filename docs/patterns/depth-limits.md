@@ -9,7 +9,7 @@ because nested lists are where query cost often grows explosively.
 
 ## Practices implemented
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Operation cost controls](/practices/operation-cost-controls)
 
 ## Applies to
 
@@ -50,6 +50,6 @@ because nested lists are where query cost often grows explosively.
 
 ## Problems addressed
 
-- [Parse-time denial of service](/problem/parse-dos)
-- [Execution cost spikes](/problem/execution-cost)
-- [Excessive query depth](/problem/query-depth)
+- [Parse-time denial of service](/problems/parse-dos)
+- [Execution cost spikes](/problems/execution-cost)
+- [Excessive query depth](/problems/query-depth)

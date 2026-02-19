@@ -16,10 +16,10 @@ Validation is on the hot path for every query, so abuse affects all users.
 
 ## Practices that address this
 
-- [Trusted documents](/practice/trusted-documents)
+- [Trusted documents](/practices/trusted-documents)
 
 ## Patterns that address this
 
-- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
-- [Token limits](/pattern/token-limits)
-- [Validation timeouts](/pattern/validation-timeouts)
+- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Token limits](/patterns/token-limits)
+- [Validation timeouts](/patterns/validation-timeouts)

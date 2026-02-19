@@ -18,9 +18,9 @@ N+1 leads to unpredictable performance and makes it hard to set safe defaults.
 
 ## Practices that address this
 
-- [Batched execution](/practice/batched-execution)
+- [Batched execution](/practices/batched-execution)
 
 ## Patterns that address this
 
-- [Batch resolvers](/pattern/batch-resolvers)
-- [Batching and caching (DataLoader)](/pattern/batching-caching)
+- [Batch resolvers](/patterns/batch-resolvers)
+- [Batching and caching (DataLoader)](/patterns/batching-caching)

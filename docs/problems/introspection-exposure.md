@@ -17,9 +17,9 @@ Exposure increases attack surface and can reveal internal structure.
 
 ## Practices that address this
 
-- [Trusted documents](/practice/trusted-documents)
+- [Trusted documents](/practices/trusted-documents)
 
 ## Patterns that address this
 
-- [Introspection controls](/pattern/introspection-controls)
-- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
+- [Introspection controls](/patterns/introspection-controls)
+- [Trusted documents (operation allowlist)](/patterns/trusted-documents)

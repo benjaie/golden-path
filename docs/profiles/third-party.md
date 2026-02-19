@@ -12,8 +12,8 @@ Examples of third-party APIs are
 
 Third party APIs have significantly increased complexity due to the nature of
 needing to handle untrusted documents safely; the majority of GraphQL APIs are
-[first party APIs](/profile/first-party/) and can instead use
-[trusted documents](/practice/trusted-documents) to offset these concerns.
+[first party APIs](/profiles/first-party/) and can instead use
+[trusted documents](/practices/trusted-documents) to offset these concerns.
 
 ## Intended for
 
@@ -23,14 +23,14 @@ needing to handle untrusted documents safely; the majority of GraphQL APIs are
 
 ## Default practices
 
-- [Operation cost controls](/practice/operation-cost-controls)
-- [Pagination limits](/practice/pagination-limits)
-- [Error hardening](/practice/error-hardening)
-- [Batched execution](/practice/batched-execution)
+- [Operation cost controls](/practices/operation-cost-controls)
+- [Pagination limits](/practices/pagination-limits)
+- [Error hardening](/practices/error-hardening)
+- [Batched execution](/practices/batched-execution)
 
 ## Practice differences vs first-party
 
-- A document allowlist (e.g. [Trusted documents](/practice/trusted-documents))
+- A document allowlist (e.g. [Trusted documents](/practices/trusted-documents))
   explicitly cannot be used; however the network optimizations such as persisted
   queries still can.
 - Parse/validation/runtime protections should be enabled by default.

@@ -8,7 +8,7 @@ resolver/data-access boundaries.
 
 ## Practices implemented
 
-- [Pagination limits](/practice/pagination-limits)
+- [Pagination limits](/practices/pagination-limits)
 
 ## Applies to
 
@@ -40,6 +40,6 @@ resolver/data-access boundaries.
 
 ## Problems addressed
 
-- [DoS via runtime execution](/problem/runtime-dos)
-- [Execution cost spikes](/problem/execution-cost)
-- [Request payload size](/problem/request-payload-size)
+- [DoS via runtime execution](/problems/runtime-dos)
+- [Execution cost spikes](/problems/execution-cost)
+- [Request payload size](/problems/request-payload-size)

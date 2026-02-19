@@ -7,7 +7,7 @@ Stops execution when it exceeds a time budget.
 
 ## Practices implemented
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Operation cost controls](/practices/operation-cost-controls)
 
 ## Applies to
 
@@ -34,4 +34,4 @@ Stops execution when it exceeds a time budget.
 
 ## Problems addressed
 
-- [DoS via runtime execution](/problem/runtime-dos)
+- [DoS via runtime execution](/problems/runtime-dos)

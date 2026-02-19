@@ -18,10 +18,10 @@ Parse-time DoS can take down a server without touching business logic.
 
 ## Practices that address this
 
-- [Trusted documents](/practice/trusted-documents)
+- [Trusted documents](/practices/trusted-documents)
 
 ## Patterns that address this
 
-- [Depth limits](/pattern/depth-limits)
-- [Token limits](/pattern/token-limits)
-- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
+- [Depth limits](/patterns/depth-limits)
+- [Token limits](/patterns/token-limits)
+- [Trusted documents (operation allowlist)](/patterns/trusted-documents)

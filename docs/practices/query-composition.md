@@ -19,8 +19,8 @@ fragile mega-queries, and accidental coupling.
 
 ## Solves
 
-- [Over-fetching and under-fetching](/problem/overfetching-underfetching)
+- [Over-fetching and under-fetching](/problems/overfetching-underfetching)
 
 ## Implementing patterns
 
-- [Query composition](/pattern/query-composition)
+- [Query composition](/patterns/query-composition)

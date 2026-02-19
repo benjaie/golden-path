@@ -19,8 +19,8 @@ plans, or implementation details.
 
 ## Solves
 
-- [Error leakage](/problem/error-leakage)
+- [Error leakage](/problems/error-leakage)
 
 ## Implementing patterns
 
-- [Error masking](/pattern/error-masking)
+- [Error masking](/patterns/error-masking)

@@ -18,12 +18,12 @@ request too much data unless pagination is bounded.
 
 ## Solves
 
-- [DoS via runtime execution](/problem/runtime-dos)
-- [Execution cost spikes](/problem/execution-cost)
-- [Request payload size](/problem/request-payload-size)
+- [DoS via runtime execution](/problems/runtime-dos)
+- [Execution cost spikes](/problems/execution-cost)
+- [Request payload size](/problems/request-payload-size)
 
 ## Implementing patterns
 
-- [Validation pagination limits](/pattern/validation-pagination-limits)
-- [Resolver pagination limits](/pattern/resolver-pagination-limits)
-- [Result size limits](/pattern/result-size-limits)
+- [Validation pagination limits](/patterns/validation-pagination-limits)
+- [Resolver pagination limits](/patterns/resolver-pagination-limits)
+- [Result size limits](/patterns/result-size-limits)

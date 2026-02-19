@@ -18,9 +18,9 @@ Complexity-driven spikes make performance and safety hard to reason about.
 
 ## Practices that address this
 
-- [Trusted documents](/practice/trusted-documents)
+- [Trusted documents](/practices/trusted-documents)
 
 ## Patterns that address this
 
-- [Query complexity limits](/pattern/query-complexity-limits)
-- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
+- [Query complexity limits](/patterns/query-complexity-limits)
+- [Trusted documents (operation allowlist)](/patterns/trusted-documents)

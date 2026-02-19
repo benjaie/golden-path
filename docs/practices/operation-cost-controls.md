@@ -26,18 +26,18 @@ additional defense or for mixed-trust environments.
 
 ## Solves
 
-- [Execution cost spikes](/problem/execution-cost)
-- [Excessive query complexity](/problem/query-complexity)
-- [Excessive query depth](/problem/query-depth)
-- [Parse-time denial of service](/problem/parse-dos)
-- [DoS via validation](/problem/validation-dos)
-- [DoS via runtime execution](/problem/runtime-dos)
+- [Execution cost spikes](/problems/execution-cost)
+- [Excessive query complexity](/problems/query-complexity)
+- [Excessive query depth](/problems/query-depth)
+- [Parse-time denial of service](/problems/parse-dos)
+- [DoS via validation](/problems/validation-dos)
+- [DoS via runtime execution](/problems/runtime-dos)
 
 ## Implementing patterns
 
-- [Query complexity limits](/pattern/query-complexity-limits)
-- [Depth limits](/pattern/depth-limits)
-- [Token limits](/pattern/token-limits)
-- [Validation timeouts](/pattern/validation-timeouts)
-- [Execution timeouts](/pattern/execution-timeouts)
-- [Introspection controls](/pattern/introspection-controls)
+- [Query complexity limits](/patterns/query-complexity-limits)
+- [Depth limits](/patterns/depth-limits)
+- [Token limits](/patterns/token-limits)
+- [Validation timeouts](/patterns/validation-timeouts)
+- [Execution timeouts](/patterns/execution-timeouts)
+- [Introspection controls](/patterns/introspection-controls)

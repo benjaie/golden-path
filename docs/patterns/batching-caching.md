@@ -7,7 +7,7 @@ Collects per-field requests, batches them, and caches results within a request.
 
 ## Practices implemented
 
-- [Batched execution](/practice/batched-execution)
+- [Batched execution](/practices/batched-execution)
 
 ## Applies to
 
@@ -36,4 +36,4 @@ Collects per-field requests, batches them, and caches results within a request.
 
 ## Problems addressed
 
-- [N+1 queries](/problem/n-plus-1)
+- [N+1 queries](/problems/n-plus-1)

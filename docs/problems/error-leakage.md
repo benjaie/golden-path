@@ -16,8 +16,8 @@ Leaked errors expose internals and make client behavior inconsistent.
 
 ## Practices that address this
 
-- [Error hardening](/practice/error-hardening)
+- [Error hardening](/practices/error-hardening)
 
 ## Patterns that address this
 
-- [Error masking](/pattern/error-masking)
+- [Error masking](/patterns/error-masking)

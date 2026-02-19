@@ -24,11 +24,11 @@ limits are still recommended.
 
 ## Solves
 
-- [Request payload size](/problem/request-payload-size)
-- [Parse-time denial of service](/problem/parse-dos)
-- [DoS via validation](/problem/validation-dos)
-- [Introspection exposure](/problem/introspection-exposure)
+- [Request payload size](/problems/request-payload-size)
+- [Parse-time denial of service](/problems/parse-dos)
+- [DoS via validation](/problems/validation-dos)
+- [Introspection exposure](/problems/introspection-exposure)
 
 ## Implementing patterns
 
-- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
+- [Trusted documents (operation allowlist)](/patterns/trusted-documents)

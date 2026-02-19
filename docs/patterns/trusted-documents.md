@@ -8,7 +8,7 @@ attack surface and enabling predictable performance.
 
 ## Practices implemented
 
-- [Trusted documents](/practice/trusted-documents)
+- [Trusted documents](/practices/trusted-documents)
 
 ## Applies to
 
@@ -40,7 +40,7 @@ attack surface and enabling predictable performance.
 
 ## Problems addressed
 
-- [Request payload size](/problem/request-payload-size)
-- [Parse-time denial of service](/problem/parse-dos)
-- [DoS via validation](/problem/validation-dos)
-- [Introspection exposure](/problem/introspection-exposure)
+- [Request payload size](/problems/request-payload-size)
+- [Parse-time denial of service](/problems/parse-dos)
+- [DoS via validation](/problems/validation-dos)
+- [Introspection exposure](/problems/introspection-exposure)

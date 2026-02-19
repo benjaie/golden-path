@@ -14,20 +14,20 @@ clients (web/mobile/backend clients owned by the same organization).
 
 ## Default practices
 
-- [Trusted documents](/practice/trusted-documents)
-- [Batched execution](/practice/batched-execution)
-- [Pagination limits](/practice/pagination-limits)
-- [Error hardening](/practice/error-hardening)
-- [Query composition](/practice/query-composition) (client/tooling side)
+- [Trusted documents](/practices/trusted-documents)
+- [Batched execution](/practices/batched-execution)
+- [Pagination limits](/practices/pagination-limits)
+- [Error hardening](/practices/error-hardening)
+- [Query composition](/practices/query-composition) (client/tooling side)
 
 ## Introspection default
 
 - Keep introspection enabled by default for first-party APIs.
-- Enforce introspection depth/list-depth via [Depth limits](/pattern/depth-limits).
+- Enforce introspection depth/list-depth via [Depth limits](/patterns/depth-limits).
 
 ## Optional practices
 
-- [Operation cost controls](/practice/operation-cost-controls) (at client build
+- [Operation cost controls](/practices/operation-cost-controls) (at client build
   time)
 
 ## Library author guidance

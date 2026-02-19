@@ -7,7 +7,7 @@ Normalizes errors returned to clients and hides internal details by default.
 
 ## Practices implemented
 
-- [Error hardening](/practice/error-hardening)
+- [Error hardening](/practices/error-hardening)
 
 ## Applies to
 
@@ -36,4 +36,4 @@ Normalizes errors returned to clients and hides internal details by default.
 
 ## Problems addressed
 
-- [Error leakage](/problem/error-leakage)
+- [Error leakage](/problems/error-leakage)

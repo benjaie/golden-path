@@ -8,7 +8,7 @@ including argument values supplied through variables.
 
 ## Practices implemented
 
-- [Pagination limits](/practice/pagination-limits)
+- [Pagination limits](/practices/pagination-limits)
 
 ## Applies to
 
@@ -37,6 +37,6 @@ including argument values supplied through variables.
 
 ## Problems addressed
 
-- [DoS via runtime execution](/problem/runtime-dos)
-- [Execution cost spikes](/problem/execution-cost)
-- [Request payload size](/problem/request-payload-size)
+- [DoS via runtime execution](/problems/runtime-dos)
+- [Execution cost spikes](/problems/execution-cost)
+- [Request payload size](/problems/request-payload-size)

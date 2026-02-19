@@ -8,7 +8,7 @@ expensive operations from overwhelming systems.
 
 ## Practices implemented
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Operation cost controls](/practices/operation-cost-controls)
 
 ## Applies to
 
@@ -38,6 +38,6 @@ expensive operations from overwhelming systems.
 
 ## Problems addressed
 
-- [Execution cost spikes](/problem/execution-cost)
-- [Excessive query complexity](/problem/query-complexity)
-- [DoS via runtime execution](/problem/runtime-dos)
+- [Execution cost spikes](/problems/execution-cost)
+- [Excessive query complexity](/problems/query-complexity)
+- [DoS via runtime execution](/problems/runtime-dos)

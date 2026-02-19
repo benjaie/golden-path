@@ -10,13 +10,13 @@ Choose a [Profile](/profiles) first, then apply the matching practice set.
 
 Core:
 
-- [Batched execution](/practice/batched-execution)
-- [Trusted documents](/practice/trusted-documents)
-- [Pagination limits](/practice/pagination-limits)
-- [Error hardening](/practice/error-hardening)
-- [Query composition](/practice/query-composition)
+- [Batched execution](/practices/batched-execution)
+- [Trusted documents](/practices/trusted-documents)
+- [Pagination limits](/practices/pagination-limits)
+- [Error hardening](/practices/error-hardening)
+- [Query composition](/practices/query-composition)
 
 Conditional:
 
-- [Operation cost controls](/practice/operation-cost-controls) for open/public
+- [Operation cost controls](/practices/operation-cost-controls) for open/public
   endpoints that accept arbitrary documents.

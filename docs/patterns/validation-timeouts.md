@@ -7,7 +7,7 @@ Stops validation when it exceeds a time budget.
 
 ## Practices implemented
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Operation cost controls](/practices/operation-cost-controls)
 
 ## Applies to
 
@@ -34,4 +34,4 @@ Stops validation when it exceeds a time budget.
 
 ## Problems addressed
 
-- [DoS via validation](/problem/validation-dos)
+- [DoS via validation](/problems/validation-dos)

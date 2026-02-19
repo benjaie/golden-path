@@ -19,11 +19,11 @@ or malicious inputs.
 
 ## Practices that address this
 
-- [Trusted documents](/practice/trusted-documents)
-- [Pagination limits](/practice/pagination-limits)
+- [Trusted documents](/practices/trusted-documents)
+- [Pagination limits](/practices/pagination-limits)
 
 ## Patterns that address this
 
-- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
-- [Validation pagination limits](/pattern/validation-pagination-limits)
-- [Resolver pagination limits](/pattern/resolver-pagination-limits)
+- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Validation pagination limits](/patterns/validation-pagination-limits)
+- [Resolver pagination limits](/patterns/resolver-pagination-limits)

@@ -7,7 +7,7 @@ or validation.
 
 ## Practices implemented
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Operation cost controls](/practices/operation-cost-controls)
 
 ## Applies to
 
@@ -36,5 +36,5 @@ or validation.
 
 ## Problems addressed
 
-- [Parse-time denial of service](/problem/parse-dos)
-- [DoS via validation](/problem/validation-dos)
+- [Parse-time denial of service](/problems/parse-dos)
+- [DoS via validation](/problems/validation-dos)

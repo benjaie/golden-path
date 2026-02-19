@@ -17,9 +17,9 @@ Depth-based failures are easy to trigger and hard to mitigate after the fact.
 
 ## Practices that address this
 
-- [Trusted documents](/practice/trusted-documents)
+- [Trusted documents](/practices/trusted-documents)
 
 ## Patterns that address this
 
-- [Depth limits](/pattern/depth-limits)
-- [Trusted documents (operation allowlist)](/pattern/trusted-documents)
+- [Depth limits](/patterns/depth-limits)
+- [Trusted documents (operation allowlist)](/patterns/trusted-documents)

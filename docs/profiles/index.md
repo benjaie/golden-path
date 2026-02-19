@@ -9,5 +9,5 @@ Profiles are opinionated bundles of practice defaults for a deployment type.
 For library authors, profiles are the easiest way to give users the right
 "golden path" out of the box.
 
-- [First-party APIs (default)](/profile/first-party)
-- [Third-party APIs (opt-in)](/profile/third-party)
+- [First-party APIs (default)](/profiles/first-party)
+- [Third-party APIs (opt-in)](/profiles/third-party)

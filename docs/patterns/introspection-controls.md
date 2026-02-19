@@ -7,7 +7,7 @@ Controls schema introspection behavior by profile and authorization policy.
 
 ## Practices implemented
 
-- [Operation cost controls](/practice/operation-cost-controls)
+- [Operation cost controls](/practices/operation-cost-controls)
 
 ## Applies to
 
@@ -36,4 +36,4 @@ Controls schema introspection behavior by profile and authorization policy.
 
 ## Problems addressed
 
-- [Introspection exposure](/problem/introspection-exposure)
+- [Introspection exposure](/problems/introspection-exposure)

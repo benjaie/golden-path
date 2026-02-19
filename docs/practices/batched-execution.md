@@ -19,9 +19,9 @@ execution makes the safe behavior the easiest behavior.
 
 ## Solves
 
-- [N+1 queries](/problem/n-plus-1)
+- [N+1 queries](/problems/n-plus-1)
 
 ## Implementing patterns
 
-- [Batch resolvers](/pattern/batch-resolvers)
-- [Batching and caching (DataLoader)](/pattern/batching-caching)
+- [Batch resolvers](/patterns/batch-resolvers)
+- [Batching and caching (DataLoader)](/patterns/batching-caching)

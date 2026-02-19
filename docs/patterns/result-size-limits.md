@@ -7,7 +7,7 @@ Limits the size of responses to avoid large payloads or expensive computation.
 
 ## Practices implemented
 
-- [Pagination limits](/practice/pagination-limits)
+- [Pagination limits](/practices/pagination-limits)
 
 ## Applies to
 
@@ -35,5 +35,5 @@ Limits the size of responses to avoid large payloads or expensive computation.
 
 ## Problems addressed
 
-- [DoS via runtime execution](/problem/runtime-dos)
-- [Request payload size](/problem/request-payload-size)
+- [DoS via runtime execution](/problems/runtime-dos)
+- [Request payload size](/problems/request-payload-size)

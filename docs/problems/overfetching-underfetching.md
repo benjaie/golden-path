@@ -19,8 +19,8 @@ These issues reduce performance and increase maintenance costs as systems grow.
 
 ## Practices that address this
 
-- [Query composition](/practice/query-composition)
+- [Query composition](/practices/query-composition)
 
 ## Patterns that address this
 
-- [Query composition](/pattern/query-composition)
+- [Query composition](/patterns/query-composition)

@@ -8,7 +8,7 @@ N+1 database or service requests while preserving GraphQL’s shape.
 
 ## Practices implemented
 
-- [Batched execution](/practice/batched-execution)
+- [Batched execution](/practices/batched-execution)
 
 ## Applies to
 
@@ -37,4 +37,4 @@ N+1 database or service requests while preserving GraphQL’s shape.
 
 ## Problems addressed
 
-- [N+1 queries](/problem/n-plus-1)
+- [N+1 queries](/problems/n-plus-1)

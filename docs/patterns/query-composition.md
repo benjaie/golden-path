@@ -8,7 +8,7 @@ component-owned fragments so data requirements stay close to where data is used.
 
 ## Practices implemented
 
-- [Query composition](/practice/query-composition)
+- [Query composition](/practices/query-composition)
 
 ## Applies to
 
@@ -38,4 +38,4 @@ component-owned fragments so data requirements stay close to where data is used.
 
 ## Problems addressed
 
-- [Over-fetching and under-fetching](/problem/overfetching-underfetching)
+- [Over-fetching and under-fetching](/problems/overfetching-underfetching)
