@@ -1,5 +1,5 @@
 ---
-title: Client implementer
+title: Client
 sidebar_position: 50
 ---
 
@@ -34,3 +34,11 @@ vs third-party profiles.
 - Provide first-class pagination primitives for connection fields.
 - Support build-time operation extraction and persisted-document publishing when
   capabilities indicate trusted document support.
+
+:::note[No first-party vs third-party profiles]
+
+Client implementers do not need separate first-party vs third-party profiles.
+Instead, clients should detect endpoint behavior using "service capabilities"
+and configure themselves from those advertised capabilities.
+
+:::

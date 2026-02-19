@@ -8,19 +8,16 @@ const sidebars: SidebarsConfig = {
       label: "Profiles",
       link: { type: "doc", id: "profiles/index" },
       items: [
-        "profiles/schema-designer",
-        "profiles/application-developer",
         {
           type: "category",
           label: "Server",
-          link: { type: "doc", id: "profiles/server" },
-          items: [
-            "profiles/server/first-party",
-            "profiles/server/third-party",
-          ],
+          link: { type: "doc", id: "profiles/server/index" },
+          items: ["profiles/server/first-party", "profiles/server/third-party"],
         },
-        "profiles/client-implementer",
-        "profiles/tooling-implementer",
+        "profiles/client",
+        "profiles/tooling",
+        "profiles/schema-designer",
+        "profiles/application-developer",
       ],
     },
     {

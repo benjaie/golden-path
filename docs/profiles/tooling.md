@@ -1,5 +1,5 @@
 ---
-title: Tooling implementer
+title: Tooling
 sidebar_position: 60
 ---
 

@@ -3,14 +3,12 @@ title: First-party API (default)
 sidebar_position: 30
 ---
 
-Use this profile when the API is consumed by trusted clients owned by the same
-organization.
+Use this profile for an API to be consumed by trusted clients owned by the same
+organization. This suits the majority of GraphQL deployments.
 
 ## Intended for
 
-- Internal product APIs
-- Private BFFs
-- Service-to-service GraphQL where operations are release-managed
+APIs powering websites, mobile and desktop apps.
 
 ## Recommended practices
 
@@ -25,9 +23,3 @@ organization.
 - [Batch resolvers](/patterns/batch-resolvers)
 - [Validation pagination limits](/patterns/validation-pagination-limits)
 - [Resolver pagination limits](/patterns/resolver-pagination-limits)
-
-## Notes
-
-- Keep introspection enabled by default for first-party APIs.
-- Prefer strict trusted document enforcement, with migration support where
-  needed.

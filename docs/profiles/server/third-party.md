@@ -3,8 +3,10 @@ title: Third-party API (opt-in)
 sidebar_position: 40
 ---
 
-Use this profile when your API must accept operations authored by untrusted or
-third-party clients.
+Use this profile for an API that must accept operations authored by untrusted or
+third-party clients. This is a more niche use-case for GraphQL that requires
+more complex protections against malicious requests; we recommend implementing a
+[first-party API](/profiles/server/first-party/) if your use case supports it.
 
 ## Intended for
 
@@ -31,5 +33,5 @@ third-party clients.
 
 - Full trusted-document allowlisting usually cannot be enforced.
 - Keep strict parse/validation/runtime protections enabled by default.
-- Disable introspection by default and publish schema docs through a separate
-  integrator channel.
+- Consider disabling introspection by default and instead publish the schema
+  definition (SDL) through a separate integrator channel.
