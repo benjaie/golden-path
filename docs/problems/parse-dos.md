@@ -2,7 +2,6 @@
 title: Parse-time denial of service
 ---
 
-
 Attackers or accidental clients send extremely deep or large queries that are
 expensive to parse and validate, exhausting CPU and memory before execution.
 
@@ -24,4 +23,4 @@ Parse-time DoS can take down a server without touching business logic.
 
 - [Depth limits](/patterns/depth-limits)
 - [Token limits](/patterns/token-limits)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)

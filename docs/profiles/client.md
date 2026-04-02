@@ -17,7 +17,7 @@ vs third-party profiles.
 ## Recommended patterns
 
 - [Cursor Connections](/patterns/cursor-connections)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)
 - [Query composition](/patterns/query-composition)
 
 ## Capability-driven configuration

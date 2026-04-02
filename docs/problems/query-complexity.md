@@ -2,7 +2,6 @@
 title: Excessive query complexity
 ---
 
-
 Queries with high field counts or expensive resolvers can overwhelm backend
 resources even if depth is limited.
 
@@ -23,4 +22,4 @@ Complexity-driven spikes make performance and safety hard to reason about.
 ## Patterns that address this
 
 - [Query complexity limits](/patterns/query-complexity-limits)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)

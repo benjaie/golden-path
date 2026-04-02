@@ -18,7 +18,7 @@ Implementation approaches that realize one or more practices.
 
 - [Batch resolvers](/patterns/batch-resolvers)
 - [Batching and caching (DataLoader)](/patterns/batching-caching)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)
 - [Validation pagination limits](/patterns/validation-pagination-limits)
 - [Resolver pagination limits](/patterns/resolver-pagination-limits)
 - [Result size limits](/patterns/result-size-limits)

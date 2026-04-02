@@ -25,4 +25,4 @@ code generators, or IDE/language tooling.
 - [Mutation input objects](/patterns/mutation-input-objects)
 - [Mutation payloads](/patterns/mutation-payloads)
 - [Modeled mutation errors](/patterns/modeled-mutation-errors)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)

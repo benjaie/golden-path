@@ -2,7 +2,6 @@
 title: DoS via validation
 ---
 
-
 Expensive validation can be exploited by sending many large or complex queries.
 
 ## Symptoms
@@ -20,6 +19,6 @@ Validation is on the hot path for every query, so abuse affects all users.
 
 ## Patterns that address this
 
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)
 - [Token limits](/patterns/token-limits)
 - [Validation timeouts](/patterns/validation-timeouts)

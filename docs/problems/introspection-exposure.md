@@ -2,7 +2,6 @@
 title: Introspection exposure
 ---
 
-
 Unrestricted introspection can expose schema details in environments where that
 information should be limited.
 
@@ -22,4 +21,4 @@ Exposure increases attack surface and can reveal internal structure.
 ## Patterns that address this
 
 - [Introspection controls](/patterns/introspection-controls)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)

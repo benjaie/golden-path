@@ -2,7 +2,6 @@
 title: Request payload size
 ---
 
-
 GraphQL requests can become large due to repeated fragments or deeply nested
 selections, increasing network transfer and server parsing costs.
 
@@ -24,6 +23,6 @@ or malicious inputs.
 
 ## Patterns that address this
 
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)
 - [Validation pagination limits](/patterns/validation-pagination-limits)
 - [Resolver pagination limits](/patterns/resolver-pagination-limits)

@@ -26,7 +26,7 @@ cached), reduces the need for broad operation cost controls.
 
 ## Implementing patterns
 
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)
 - To document: document signing
 - To document: operation registry
 

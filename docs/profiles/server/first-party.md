@@ -20,7 +20,7 @@ APIs powering websites, mobile and desktop apps.
 
 ## Recommended patterns
 
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)
 - [Cursor Connections](/patterns/cursor-connections)
 - [Batch resolvers](/patterns/batch-resolvers)
 - [Validation pagination limits](/patterns/validation-pagination-limits)

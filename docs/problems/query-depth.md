@@ -2,7 +2,6 @@
 title: Excessive query depth
 ---
 
-
 Deeply nested queries can cause exponential work or trigger worst-case behavior
 in resolvers and backends.
 
@@ -22,4 +21,4 @@ Depth-based failures are easy to trigger and hard to mitigate after the fact.
 ## Patterns that address this
 
 - [Depth limits](/patterns/depth-limits)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)

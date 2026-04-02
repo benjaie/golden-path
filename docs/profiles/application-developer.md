@@ -11,7 +11,7 @@ patterns are especially relevant to app developers:
 - [Query composition](/practices/query-composition)
 - [Cursor pagination](/practices/cursor-pagination)
 - [Cursor Connections](/patterns/cursor-connections)
-- [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/patterns/trusted-documents)
 
 ## What to expect from a healthy platform
 

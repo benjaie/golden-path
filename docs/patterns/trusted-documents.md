@@ -1,5 +1,5 @@
 ---
-title: Trusted documents (operation allowlist)
+title: Trusted documents (allowlist)
 ---
 
 Trusted documents allow only pre-registered operations to execute, reducing
