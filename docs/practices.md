@@ -4,21 +4,14 @@ slug: /practices
 sidebar_position: 3
 ---
 
-Recommended default behaviors for GraphQL tooling and infrastructure.
+Practices are default behaviors that should be implemented by GraphQL
+libraries/frameworks/tooling/schemas.
 
-Choose a [Profile](/profiles) first, then apply the matching practice set.
+**Choose a [Profile](/profiles) first, then address the practices detailed in
+that profile.**
 
-Core:
+:::tip[You don't need to implement every practice]
 
-- [Batched execution](/practices/batched-execution)
-- [Trusted documents](/practices/trusted-documents)
-- [Cursor pagination](/practices/cursor-pagination)
-- [Pagination limits](/practices/pagination-limits)
-- [Error hardening](/practices/error-hardening)
-- [Query composition](/practices/query-composition)
-- [Versioning](/practices/versioning)
+Only implement the practices for the [profile(s)](/profiles) that fit your role.
 
-Conditional:
-
-- [Operation cost controls](/practices/operation-cost-controls) for open/public
-  endpoints that accept arbitrary documents.
+:::
