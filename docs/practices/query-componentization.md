@@ -3,8 +3,10 @@ title: Query componentization
 sidebar_position: 50
 ---
 
-Keep data requirements close to where data is rendered, and compose operations
-from those local requirements.
+Each data-consuming component (function, class, UI element, and so on) of a
+client application should declare its data requirements locally. These
+requirements may then be composed, following the usage of the components
+themselves, to form a GraphQL operation to issue to the server.
 
 ## Applies to
 
@@ -35,8 +37,7 @@ because tracing down where it is used is too time consuming.
 
 To implement this, pick one of:
 
-- To document: data masking
-- To document: type masking
+- [Fragment co-location](/patterns/fragment-colocation)
 - To document: code-to-query generation
 
 Alongside the above, you should also implement the following:

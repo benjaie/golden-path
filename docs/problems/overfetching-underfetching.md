@@ -22,4 +22,4 @@ These issues reduce performance and increase maintenance costs as systems grow.
 
 ## Patterns that address this
 
-- [Query composition](/patterns/query-composition)
+- [Fragment colocation](/patterns/fragment-colocation)
