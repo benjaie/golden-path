@@ -3,8 +3,7 @@ title: Trusted documents
 sidebar_position: 20
 ---
 
-Execute only operations your system trusts by default, usually by referencing a
-pre-registered document ID instead of accepting arbitrary query text.
+Execute only operations your system trusts.
 
 ## Applies to
 
@@ -15,12 +14,8 @@ pre-registered document ID instead of accepting arbitrary query text.
 
 ## Why this should be default
 
-It reduces attack surface, keeps parse/validation costs predictable, and
-standardizes request behavior across tooling.
-
-In deployments that fully enforce trusted documents, this can remove the need
-for broad operation cost controls as a default baseline, though pagination
-limits are still recommended.
+Reduces attack surface, keeps parse/validation costs predictable (and can be
+cached), reduces the need for broad operation cost controls.
 
 ## Solves
 
@@ -32,3 +27,17 @@ limits are still recommended.
 ## Implementing patterns
 
 - [Trusted documents (operation allowlist)](/patterns/trusted-documents)
+- To document: document signing
+- To document: operation registry
+
+## Additional notes
+
+Limiting operations through an allow list does not place further restrictions on
+variables, so care should be taken when adding variables to such documents. For
+example, if the `first` argument to a collection field is specified via a
+variable, an attacker could supply `{"first": 999999999}` which may still
+constitute an attack. Similarly complex filter arguments could cause issues. It
+may be wise to encode as much as possible into the document statically and use
+variables in only the leaf-most positions if they impose a denial of service
+threat. [Pagination limits](/practices/pagination-limits) is a separate
+practice.
