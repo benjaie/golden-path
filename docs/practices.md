@@ -16,6 +16,7 @@ Core:
 - [Pagination limits](/practices/pagination-limits)
 - [Error hardening](/practices/error-hardening)
 - [Query composition](/practices/query-composition)
+- [Versioning](/practices/versioning)
 
 Conditional:
 

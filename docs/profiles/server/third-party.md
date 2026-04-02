@@ -12,7 +12,6 @@ more complex protections against malicious requests; we recommend implementing a
 
 - Public platform APIs
 - Partner ecosystems
-- Any endpoint where ad-hoc documents are expected
 
 ## Recommended practices
 
@@ -22,18 +21,10 @@ more complex protections against malicious requests; we recommend implementing a
 - [Error hardening](/practices/error-hardening)
 - [Batched execution](/practices/batched-execution)
 
-## Recommended patterns
-
-- [Cursor Connections](/patterns/cursor-connections)
-- [Query complexity limits](/patterns/query-complexity-limits)
-- [Depth limits](/patterns/depth-limits)
-- [Token limits](/patterns/token-limits)
-- [Validation timeouts](/patterns/validation-timeouts)
-- [Execution timeouts](/patterns/execution-timeouts)
-
 ## Notes
 
-- Full trusted-document allowlisting usually cannot be enforced.
+- Only use this where [trusted documents](/practices/trusted-documents) cannot
+  be implemented.
 - Keep strict parse/validation/runtime protections enabled by default.
 - Consider disabling introspection by default and instead publish the schema
   definition (SDL) through a separate integrator channel.

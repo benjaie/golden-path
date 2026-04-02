@@ -5,41 +5,28 @@ sidebar_position: 50
 
 Use this profile if you build GraphQL client libraries, frameworks, or SDKs.
 
-Client behavior should be endpoint-capability-driven, not split by first-party
-vs third-party profiles.
-
 ## Recommended practices
 
+Once [service capabilities](https://github.com/graphql/graphql-spec/pull/1208)
+are integrated into the GraphQL specification, some client behaviors should be
+driven by the server's exposed capabilities.
+
+For servers that require [trusted documents](/practices/trusted-documents), the
+client must support them.
+
+It's always recommended to address:
+
 - [Query composition](/practices/query-composition)
-- [Trusted documents](/practices/trusted-documents)
 - [Cursor pagination](/practices/cursor-pagination)
-
-## Recommended patterns
-
-- [Cursor Connections](/patterns/cursor-connections)
-- [Trusted documents (allowlist)](/patterns/trusted-documents)
-- [Query composition](/patterns/query-composition)
 
 ## Capability-driven configuration
 
-- Detect endpoint service capabilities and auto-configure client behavior.
-- Use capability negotiation to determine whether trusted documents are
+(Near future, hopefully!)
+
+- Detect endpoint service capabilities and auto-configure client behavior:
+  websockets, server sent events, etc.
+- Use capability negotiation to determine whether persisted documents are
   required, optional, or unsupported.
-- If trusted documents are enabled, use capability metadata to discover publish
-  and execute endpoints.
+- If persisted documents are enabled, use capability metadata to discover
+  publish and execute endpoints.
 - Fall back safely when capabilities are absent or partial.
-
-## Key responsibilities
-
-- Make fragment-driven composition the default developer experience.
-- Provide first-class pagination primitives for connection fields.
-- Support build-time operation extraction and persisted-document publishing when
-  capabilities indicate trusted document support.
-
-:::note[No first-party vs third-party profiles]
-
-Client implementers do not need separate first-party vs third-party profiles.
-Instead, clients should detect endpoint behavior using "service capabilities"
-and configure themselves from those advertised capabilities.
-
-:::

@@ -28,3 +28,13 @@ instead of introducing versioned GraphQL endpoints.
 ## Problems addressed
 
 - [Over-fetching and under-fetching](/problems/overfetching-underfetching)
+
+## Related patterns
+
+These patterns help your schema tolerate future changes, often by giving extra
+space that the API can expand into:
+
+- [Cursor Connections](/patterns/cursor-connections)
+- [Mutation input objects](/patterns/mutation-input-objects)
+- [Mutation payloads](/patterns/mutation-payloads)
+- [Modeled mutation errors](/patterns/modeled-mutation-errors)

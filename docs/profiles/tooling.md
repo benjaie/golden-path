@@ -16,13 +16,7 @@ code generators, or IDE/language tooling.
 
 ## Recommended practices
 
+- [Query composition](/practices/query-composition)
 - [Cursor pagination](/practices/cursor-pagination)
-
-## Recommended patterns
-
-- [Cursor Connections](/patterns/cursor-connections)
-- [Versionless schema design](/patterns/versionless-schema-design)
-- [Mutation input objects](/patterns/mutation-input-objects)
-- [Mutation payloads](/patterns/mutation-payloads)
-- [Modeled mutation errors](/patterns/modeled-mutation-errors)
-- [Trusted documents (allowlist)](/patterns/trusted-documents)
+- [Trusted documents](/practices/trusted-documents)
+- [Versioning](/practices/versioning)

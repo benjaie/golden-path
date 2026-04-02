@@ -14,16 +14,15 @@ organization.
 
 ## Recommended practices
 
+- [Batched execution](/practices/batched-execution)
 - [Cursor pagination](/practices/cursor-pagination)
+- [Versioning](/practices/versioning)
 
 ## Recommended patterns to implement
 
-- [Cursor Connections](/patterns/cursor-connections)
-- [Versionless schema design](/patterns/versionless-schema-design)
 - [Mutation input objects](/patterns/mutation-input-objects)
 - [Mutation payloads](/patterns/mutation-payloads)
 - [Modeled mutation errors](/patterns/modeled-mutation-errors)
-- [Batch resolvers](/patterns/batch-resolvers) (server collaboration)
 
 ## Consistency and governance checks
 

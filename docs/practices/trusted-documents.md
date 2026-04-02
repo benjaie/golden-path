@@ -3,7 +3,7 @@ title: Trusted documents
 sidebar_position: 20
 ---
 
-Execute only operations your system trusts.
+Execute only operations written by your trusted developers.
 
 ## Applies to
 
@@ -30,7 +30,12 @@ cached), reduces the need for broad operation cost controls.
 - To document: document signing
 - To document: operation registry
 
-## Additional notes
+## Notes
+
+Though only allowing documents written by your developers should rule out
+overtly malicious operations, code review and static linting tools should be
+used in combination to help ensure that the documents you are trusting are safe
+and conform to your standards.
 
 Limiting operations through an allow list does not place further restrictions on
 variables, so care should be taken when adding variables to such documents. For
