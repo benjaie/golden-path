@@ -16,7 +16,7 @@ code generators, or IDE/language tooling.
 
 ## Recommended practices
 
-- [Query composition](/practices/query-composition)
+- [Query componentization](/practices/query-componentization)
 - [Cursor pagination](/practices/cursor-pagination)
 - [Trusted documents](/practices/trusted-documents)
 - [Versioning](/practices/versioning)

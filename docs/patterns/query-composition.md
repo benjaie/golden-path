@@ -2,13 +2,12 @@
 title: Query composition
 ---
 
-
 Query composition encourages clients to assemble operations from local,
 component-owned fragments so data requirements stay close to where data is used.
 
 ## Practices implemented
 
-- [Query composition](/practices/query-composition)
+- [Query componentization](/practices/query-componentization)
 
 ## Applies to
 

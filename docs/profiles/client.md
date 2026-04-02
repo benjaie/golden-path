@@ -16,7 +16,7 @@ client must support them.
 
 It's always recommended to address:
 
-- [Query composition](/practices/query-composition)
+- [Query componentization](/practices/query-componentization)
 - [Cursor pagination](/practices/cursor-pagination)
 
 ## Capability-driven configuration

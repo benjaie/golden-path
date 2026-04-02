@@ -2,7 +2,6 @@
 title: Over-fetching and under-fetching
 ---
 
-
 Over-fetching happens when clients request more data than they render.
 Under-fetching happens when clients do not request data they need, leading to
 extra round trips.
@@ -19,7 +18,7 @@ These issues reduce performance and increase maintenance costs as systems grow.
 
 ## Practices that address this
 
-- [Query composition](/practices/query-composition)
+- [Query componentization](/practices/query-componentization)
 
 ## Patterns that address this
 
