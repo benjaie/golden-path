@@ -23,7 +23,6 @@ cached), reduces the need for broad operation cost controls.
 - [Response size](/problems/response-size)
 - [Parse-time denial of service](/problems/parse-dos)
 - [DoS via validation](/problems/validation-dos)
-- [Introspection exposure](/problems/introspection-exposure)
 
 ## Implementing patterns
 

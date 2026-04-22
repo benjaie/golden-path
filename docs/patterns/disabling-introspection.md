@@ -53,7 +53,3 @@ introspection
 - Disabling introspection does NOT prevent users from discovering which fields
   are available in the schema. The schema should be treated as public
   information, any private information should not be added to the schema.
-
-## Problems addressed
-
-- [Introspection exposure](/problems/introspection-exposure)
