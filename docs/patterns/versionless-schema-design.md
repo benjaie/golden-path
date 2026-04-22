@@ -13,6 +13,9 @@ instead of introducing versioned GraphQL endpoints.
 - Use deprecations with clear replacement guidance.
 - Remove deprecated fields only after observed usage reaches an acceptable
   threshold.
+- Think about future extensibility when designing types - patterns such as
+  connections and mutation payloads can enable future extensions (aggregations,
+  related data, metadata) that simple list fields or mutated records may not.
 
 ### Tooling implementer
 
