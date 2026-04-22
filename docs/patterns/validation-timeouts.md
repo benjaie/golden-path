@@ -2,7 +2,6 @@
 title: Validation timeouts
 ---
 
-
 Stops validation when it exceeds a time budget.
 
 ## Practices implemented
@@ -26,11 +25,15 @@ Stops validation when it exceeds a time budget.
 - Enforce timeouts during validation, before execution starts.
 - Surface clear errors that point to validation cost.
 - Keep validation rules deterministic.
+- Hashing operations and storing them to a "known good" list once validated once
+  can save repeated validation costs.
 
 ## Cautions
 
 - Complex schemas may require higher timeouts.
 - Timeouts can hide performance regressions if not monitored.
+- Frequent validation timeouts from the same user or IP _might_ indicate a
+  malicious user. Consider rate-limiting new operations.
 
 ## Problems addressed
 
