@@ -11,12 +11,15 @@ relying only on top-level GraphQL errors.
 
 - Represent expected domain failures in payload fields or unions/interfaces.
 - Use stable, machine-readable error codes.
-- Reserve top-level GraphQL errors for exceptional/system failures.
+- Reserve GraphQL errors for exceptional/system failures.
 
 ### Client implementer
 
 - Handle modeled mutation failures as part of normal typed control flow.
-- Avoid treating all top-level GraphQL errors as business-rule failures.
+- Handle GraphQL errors in an ergonomic fashion, e.g.
+  [Throw On Error](https://github.com/graphile/graphql-toe),
+  [`@throwOnFieldError`](https://relay.dev/docs/guides/throw-on-field-error-directive/)
+  or [`@catch`](https://relay.dev/docs/guides/catch-directive/).
 
 ### Tooling implementer
 
