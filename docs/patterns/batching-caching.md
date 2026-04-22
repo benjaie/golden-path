@@ -4,7 +4,7 @@ title: Batching and caching (DataLoader)
 
 Collects per-field requests, batches them, and caches results within a request.
 
-## Practices implemented
+## Not golden path
 
 This is not the recommended pattern for
 [Batched execution](/practices/batched-execution) because it requires developers
