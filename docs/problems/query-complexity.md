@@ -7,13 +7,16 @@ resources even if depth is limited.
 
 ## Symptoms
 
-- Very large selection sets
-- Queries that appear shallow but are expensive
-- Unpredictable performance under load
+- Large execution time despite passing depth limits
+- Large amounts of data for relatively small requests
 
 ## Why it matters
 
-Complexity-driven spikes make performance and safety hard to reason about.
+Attackers (and naive users) don't need huge queries to cause problems, even
+small queries can be expensive to execute or result in outsized output. Without
+safeguards, an attacker can leverage this asymmetry, cheaply issuing many small
+but expensive requests in order to exhaust CPU, memory, or downstream services
+and cause denial of service.
 
 ## Practices that address this
 
