@@ -2,14 +2,15 @@
 title: Response size
 ---
 
-GraphQL responses can become large due to repeated fragments or deeply nested
-selections, increasing execution, network transfer, and serialization costs.
+GraphQL responses can become large due to repeated fragments, nested or
+unpaginated lists, or deeply nested selections. Large responses typically have
+high associated execution, serialization, and network transfer costs.
 
 ## Symptoms
 
-- Very large response payloads
-- High bandwidth usage
 - Slow execution
+- Large response payloads
+- Slow serialization
 
 ## Why it matters
 

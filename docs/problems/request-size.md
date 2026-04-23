@@ -3,7 +3,7 @@ title: Request size
 ---
 
 GraphQL requests can become large due to dynamically created GraphQL documents,
-increasing network transfer and server parsing/validation costs.
+increasing network transfer and server parsing/validation/execution costs.
 
 ## Symptoms
 
