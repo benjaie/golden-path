@@ -38,5 +38,4 @@ prevent excessively complex validation.
 
 ## Problems addressed
 
-- [Parse-time denial of service](/problems/parse-dos)
 - [DoS via validation](/problems/validation-dos)

@@ -61,7 +61,6 @@ expensive "trusted" documents.
 - [Execution cost](/problems/execution-cost)
 - [Excessive query complexity](/problems/query-complexity)
 - [Excessive query depth](/problems/query-depth)
-- [Parse-time denial of service](/problems/parse-dos)
 - [DoS via validation](/problems/validation-dos)
 
 ## Implementing patterns

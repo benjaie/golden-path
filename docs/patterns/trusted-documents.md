@@ -52,5 +52,4 @@ attack surface and enabling predictable performance.
 
 - [Request size](/problems/request-size)
 - [Response size](/problems/response-size)
-- [Parse-time denial of service](/problems/parse-dos)
 - [DoS via validation](/problems/validation-dos)
