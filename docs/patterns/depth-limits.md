@@ -81,5 +81,5 @@ most common introspection queries whilst blocking malicious requests:
 ## Problems addressed
 
 - [Parse-time denial of service](/problems/parse-dos)
-- [Execution cost spikes](/problems/execution-cost)
+- [Execution cost](/problems/execution-cost)
 - [Excessive query depth](/problems/query-depth)

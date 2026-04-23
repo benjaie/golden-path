@@ -58,7 +58,7 @@ expensive "trusted" documents.
 
 ## Solves
 
-- [Execution cost spikes](/problems/execution-cost)
+- [Execution cost](/problems/execution-cost)
 - [Excessive query complexity](/problems/query-complexity)
 - [Excessive query depth](/problems/query-depth)
 - [Parse-time denial of service](/problems/parse-dos)

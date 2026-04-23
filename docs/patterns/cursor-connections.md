@@ -50,5 +50,5 @@ edges, cursors, and page metadata.
 
 ## Problems addressed
 
-- [Execution cost spikes](/problems/execution-cost)
+- [Execution cost](/problems/execution-cost)
 - [DoS via runtime execution](/problems/runtime-dos)

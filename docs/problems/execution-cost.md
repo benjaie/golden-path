@@ -1,28 +1,26 @@
 ---
-title: Execution cost spikes
+title: High execution costs
 ---
 
-
-Queries that are valid and small can still trigger expensive execution, such as
-large fan-out, expensive joins, or heavy computation.
+Queries that are valid and relatively small can still trigger expensive
+execution, such as large fan-out, deep request waterfalls, heavy computation or
+memory usage, or time-consuming serialization/deserialization.
 
 ## Symptoms
 
-- Slow requests despite small payloads
+- Slow responses despite small requests
 - Resource exhaustion during execution
 - High variance in latency for similar queries
+- Memory usage/garbage collection spikes
+- Long time spent blocking CPU for resolution or serialization
 
 ## Why it matters
 
-Without predictable execution costs, default limits and SLOs become guesswork.
+High execution costs can put a lot of stress on your infrastructure, increase
+costs, increase latency, and potentially lead to denial of service.
 
 ## Practices that address this
 
 - [Pagination limits](/practices/pagination-limits)
-
-## Patterns that address this
-
-- [Validation pagination limits](/patterns/validation-pagination-limits)
-- [Resolver pagination limits](/patterns/resolver-pagination-limits)
-- [Query complexity limits](/patterns/query-complexity-limits)
-- [Depth limits](/patterns/depth-limits)
+- [Operation cost controls](/practices/operation-cost-controls)
+- [Trusted documents](/practices/trusted-documents)

@@ -46,5 +46,5 @@ for it.
 ## Problems addressed
 
 - [DoS via runtime execution](/problems/runtime-dos)
-- [Execution cost spikes](/problems/execution-cost)
+- [Execution cost](/problems/execution-cost)
 - [Response size](/problems/response-size)

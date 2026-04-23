@@ -23,7 +23,7 @@ sizes helps to limit this growth.
 ## Addresses
 
 - [DoS via runtime execution](/problems/runtime-dos)
-- [Execution cost spikes](/problems/execution-cost)
+- [Execution cost](/problems/execution-cost)
 - [Response size](/problems/response-size)
 
 ## Implementing patterns

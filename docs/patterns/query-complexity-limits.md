@@ -33,6 +33,6 @@ See: https://ibm.github.io/graphql-specs/cost-spec.html
 
 ## Problems addressed
 
-- [Execution cost spikes](/problems/execution-cost)
+- [Execution cost](/problems/execution-cost)
 - [Excessive query complexity](/problems/query-complexity)
 - [DoS via runtime execution](/problems/runtime-dos)

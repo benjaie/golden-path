@@ -31,5 +31,5 @@ Enforce page-size is specified during GraphQL validation.
 ## Problems addressed
 
 - [DoS via runtime execution](/problems/runtime-dos)
-- [Execution cost spikes](/problems/execution-cost)
+- [Execution cost](/problems/execution-cost)
 - [Response size](/problems/response-size)
