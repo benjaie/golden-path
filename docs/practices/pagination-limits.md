@@ -13,12 +13,12 @@ unbounded result sets.
 
 ## Why this should be default
 
-GraphQL should typically only be used to fetch the data displayed on the screen,
-additional data should be fetched as and when it's needed. Allowing API clients
+GraphQL should typically only be used to fetch the data displayed on the screen.
+Additional data should be fetched as and when it is needed. Allowing API clients
 to request unbounded results places a performance burden on servers and backend
-infrastructure that could lead to denial of service and similar issues. Further,
-GraphQL allows fetching nested lists, multiplying up result sets. Bounding page
-sizes helps to limit this growth.
+infrastructure that could lead to denial of service and similar issues.
+Additionally, GraphQL allows fetching nested lists, multiplying result sets.
+Bounding page sizes helps to limit this growth.
 
 ## Addresses
 

@@ -12,7 +12,7 @@ resources even if depth is limited.
 
 ## Why it matters
 
-Attackers (and naive users) don't need huge queries to cause problems, even
+Attackers (and naive users) do not need huge queries to cause problems. Even
 small queries can be expensive to execute or result in outsized output. Without
 safeguards, an attacker can leverage this asymmetry, cheaply issuing many small
 but expensive requests in order to exhaust CPU, memory, or downstream services

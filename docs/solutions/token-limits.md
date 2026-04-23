@@ -17,17 +17,17 @@ prevent excessively complex validation.
 
 ## Configuration (suggested defaults)
 
-| Parameter         | Default  | Notes                                               |
-| ----------------- | -------- | --------------------------------------------------- |
-| `maxTokens`       | `5000`   | Maximum tokens allowed for application operations.  |
-| `onLimitExceeded` | `reject` | One of: `reject`, `warn`.                           |
-| `ignoreIgnored`   | `true`   | Ignored tokens don't make validation more expensive |
+| Parameter         | Default  | Notes                                                 |
+| ----------------- | -------- | ----------------------------------------------------- |
+| `maxTokens`       | `5000`   | Maximum tokens allowed for application operations.    |
+| `onLimitExceeded` | `reject` | One of: `reject`, `warn`.                             |
+| `ignoreIgnored`   | `true`   | Ignored tokens do not make validation more expensive. |
 
 ## Implementation notes
 
 - Count tokens from the lexer stream before expensive parse/validation phases.
-- Ignored tokens (comments, commas, whitespace, etc) can be ignored, they may
-  increase memory usage linearly but should not have significant impact on
+- Ignored tokens (comments, commas, whitespace, etc.) can be ignored. They may
+  increase memory usage linearly but should not have a significant impact on
   validation duration.
 - Return stable error codes/messages so users can tune limits safely.
 

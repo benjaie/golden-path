@@ -12,7 +12,7 @@ to know about it, opt in, and use it consistently in order to reliably and
 effectively solve the N+1 problem. It's a solid solution and can work well, but
 the golden path focuses on ensuring problems are either solved out of the box or
 the user is directly confronted with them rather than requiring them to discover
-the solutions for themself.
+the solutions for themselves.
 
 ## Applies to
 

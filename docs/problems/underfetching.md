@@ -3,18 +3,18 @@ title: Under-fetching
 ---
 
 Under-fetching happens when insufficient data is requested, and thus additional
-round-trips are needed to satisfy all required data - often visualized as a
-request waterfall.
+round-trips are needed to satisfy all required data. This is often visualized as
+a request waterfall.
 
 ## Symptoms
 
-- Request amplification - repeated follow-up queries to fill in missing data
-- Increased latency as the network roundtrips in the waterfall take significant
+- Request amplification: repeated follow-up queries to fill in missing data.
+- Increased latency as the network round trips in the waterfall take significant
   time (for client-server), or the serialization/deserialization costs add up
   (for server-storage).
-- Progressive (and slow) rendering - data requirements for the next layer are
-  only discovered after the previous layer has been fetched
-- Increased backend load from handling significantly more requests
+- Progressive and slow rendering: data requirements for the next layer are only
+  discovered after the previous layer has been fetched.
+- Increased backend load from handling significantly more requests.
 
 ## Why it matters
 

@@ -6,7 +6,7 @@ Return a dedicated payload object per mutation so successful results and
 metadata remain structured and evolvable.
 
 Use this in combination with
-[Modeled mutation errors](./modeled-mutation-errors.md).
+[Modeled mutation errors](/solutions/modeled-mutation-errors).
 
 ## Implementer guidance
 
@@ -27,8 +27,8 @@ Use this in combination with
 
 - Lint for mutation payload naming and structural conventions.
 - Lint to ensure each mutation has its own unique mutation payload type. Initial
-  alignment is liable to break as the schema evolves, it's wise to start with
-  unique types even if they have an identical set of fields.
+  alignment is liable to break as the schema evolves, so it is wise to start
+  with unique types even if they have an identical set of fields.
 - Generate typed payload helpers in SDK/codegen workflows.
 
 ## Problems addressed

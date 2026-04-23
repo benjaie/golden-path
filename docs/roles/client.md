@@ -24,7 +24,7 @@ It's always recommended to address:
 (Near future, hopefully!)
 
 - Detect endpoint service capabilities and auto-configure client behavior:
-  websockets, server sent events, etc.
+  WebSockets, server-sent events, etc.
 - Use capability negotiation to determine whether persisted documents are
   required, optional, or unsupported.
 - If persisted documents are enabled, use capability metadata to discover

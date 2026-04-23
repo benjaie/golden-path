@@ -32,15 +32,15 @@ for it.
 - Emit warnings/metrics when clamping occurs.
 - `clamp`: coerce out-of-bounds values to configured limits.
 - `reject`: return an explicit client error when values exceed limits.
-- `warn`: allow request but emit warnings/metrics for visibility. Suitable
-  whilst transitioning to golden path, but not recommended for new users.
+- `warn`: allow request but emit warnings/metrics for visibility. Suitable while
+  transitioning to the Golden Path, but not recommended for new users.
 
 ## Cautions
 
-- Silent clamping can surprise clients - they may assume that no more data
+- Silent clamping can surprise clients; they may assume that no more data
   exists; document behavior clearly and use
-  [cursor connections](./cursor-connections.md) to indicate `hasNextPage: true`
-  as appropriate.
+  [cursor connections](/solutions/cursor-connections) to indicate
+  `hasNextPage: true` as appropriate.
 - Inconsistent wrappers across services can cause drift.
 
 ## Problems addressed

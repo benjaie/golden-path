@@ -24,11 +24,11 @@ issued to the GraphQL server.
 - Require that each fragment and operation belongs to a component.
 - Require that a component may only reference data requested via its fragment or
   operation.
-- Require that every field requested in a components fragment is used by that
+- Require that every field requested in a component's fragment is used by that
   fragment (with the exception of fields needed for normalized caching or
   similar purposes).
-- Discourage the user from adding lots of queries - fragments should be the
-  default for requesting data with one query that composes the tree of
+- Discourage the user from adding many top-level queries; fragments should be
+  the default for requesting data with one query that composes the tree of
   fragments.
 - Assemble operations automatically from fragment dependencies.
 

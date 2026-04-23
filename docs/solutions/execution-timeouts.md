@@ -25,17 +25,16 @@ Stops execution when it exceeds a time budget.
 
 - Apply timeouts at the operation level.
 - Ensure resolvers can observe cancellation.
-- Subscriptions should not have timeouts (they're expected to run indefinitely),
-  however each event should have a timeout for production, failure to meet this
-  should cancel the entire subscription.
+- Subscriptions should not have timeouts (they are expected to run
+  indefinitely), but each event should have a timeout in production. Failure to
+  meet this timeout should cancel the entire subscription.
 - Log timeout failures with trace IDs.
 
 ## Cautions
 
 - Long-running operations may fail unexpectedly.
 - Cancellation support varies across runtimes.
-- Beware thundering herd when many operations are cancelled around the same
-  time.
+- Beware thundering herd when many operations are canceled around the same time.
 
 ## Problems addressed
 

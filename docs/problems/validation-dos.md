@@ -3,7 +3,7 @@ title: DoS via validation
 ---
 
 Validation helps protect your GraphQL service from invalid or expensive
-requests, however it can itself be a subject of attack. Many of the validation
+requests. However, it can itself be a subject of attack. Many of the validation
 algorithms scale as O(N²) (e.g. field merging), so more input tokens can cause
 exponentially increasing validation costs.
 

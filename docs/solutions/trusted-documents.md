@@ -15,13 +15,13 @@ attack surface and enabling predictable performance.
 
 - Detect trusted-document requirements from endpoint service capabilities.
 - Extract operation documents at build time, hash, and publish to a registry.
-- At runtime, send operation ID (hash) instead of full document text.
+- At runtime, send the operation ID (hash) instead of the full document text.
 - Keep hash algorithm and canonicalization aligned with server expectations.
 
 ### Server implementer
 
 - Store and version trusted operations received during publish.
-- Ensure documents to store in registry _are_ trusted.
+- Ensure documents stored in the registry _are_ trusted.
 - Resolve incoming operation IDs to canonical documents.
 - Reject requests without an ID.
 - Reject requests with an unknown operation ID.
@@ -32,7 +32,7 @@ attack surface and enabling predictable performance.
 - Provide CI checks that all shipped operations are published.
 - Fail builds when operation IDs are missing or mismatched.
 - Support rollback/revocation workflows for operations.
-- Track which versions of which applications use which operation IDs, this can
+- Track which versions of which applications use which operation IDs. This can
   aid with schema evolution decisions.
 
 ## See also

@@ -8,8 +8,8 @@ A role lays out the practices that you (the reader) should address, such that
 consumers downstream of your software walk the golden path and thus avoid common
 downsides and pitfalls.
 
-Pick the role that matches your responsibilities, then ensure your
-software/schema addresses the practices listed for that role.
+Pick the role that matches your responsibilities, then ensure your software or
+schema addresses the practices listed for that role.
 
 ## Terminology
 
@@ -37,12 +37,12 @@ into three categories:
 
 Organizations (businesses, nonprofits, government agencies, and similar
 institutions) generally consume GraphQL software from the community, and are
-thus the beneficiaries of the Golden Path rather than the implementors of it.
+thus the beneficiaries of the Golden Path rather than the implementers of it.
 
 That said, schema designers will want to set up application developers for
 success, so they should implement a golden path for them. Application developers
 should follow the path laid out before them, but we include some recommended
-practices for them also to help engender success.
+practices for them also to support that success.
 
 - [Schema designer](/roles/schema-designer): designs and evolves the schema and
   resolvers to meet organizational and application needs.

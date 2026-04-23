@@ -2,18 +2,18 @@
 title: Batch resolvers
 ---
 
-As compared to traditional resolvers which receive a single parent object and
-associated arguments and returns the value for that field, a batch resolver
-receives a _list_ of all of the parent objects in that operation position (TODO:
-define term) and must return a list of the same size where each entry is the
-value to use for the correlated parent object. Essentially it's the DataLoader
-solution but enforced via every resolver in the schema.
+Compared to traditional resolvers, which receive a single parent object and
+associated arguments and return the value for that field, a batch resolver
+receives a _list_ of all parent objects in that operation position (TODO: define
+term). It must return a list of the same size where each entry is the value to
+use for the correlated parent object. Essentially, it is the DataLoader solution
+but enforced via every resolver in the schema.
 
-Batch resolvers force the developer to address the N+1 problem head on, and
-should the developer still manage to introduce an N+1 problem it should be much
-more straightforward to resolve since the entry and exit points already have the
-right shape - no additional configuration (e.g. adding dataloaders to context)
-is required.
+Batch resolvers force the developer to address the N+1 problem head-on. If the
+developer still manages to introduce an N+1 problem, it should be much more
+straightforward to resolve since the entry and exit points already have the
+right shape; no additional configuration (e.g. adding DataLoaders to context) is
+required.
 
 Batch resolvers implemented directly in the GraphQL engine also have the
 additional benefit that the number of "promises" required is significantly
@@ -50,11 +50,11 @@ diminished as compared to traditional resolvers used with DataLoader.
 
 - Cross-request caches can leak data if not keyed by auth context.
 - Batching on the critical path _can_ increase latency; consider allowing
-  advanced users to opt out whilst protecting regular users from the much larger
+  advanced users to opt out while protecting regular users from the much larger
   concern of N+1 by default.
 - Backends may still need query-level guards to prevent oversized result sets.
-- Consider offering "max batch size" configuration for each field - some
-  services have limits or start to perform worse as batch sizes pass a critical
+- Consider offering "max batch size" configuration for each field; some services
+  have limits or start to perform worse as batch sizes pass a critical
   threshold.
 
 ## Problems addressed

@@ -1,8 +1,8 @@
 ---
-title: Cursor Connections
+title: Cursor connections
 ---
 
-Cursor Connections provide a consistent contract for paginated lists using
+Cursor connections provide a consistent contract for paginated lists using
 edges, cursors, and page metadata.
 
 ## Practices implemented
@@ -16,17 +16,17 @@ edges, cursors, and page metadata.
 - Expose data collections as connection types for forward (and ideally backward)
   cursor pagination and schema extensibility.
 - Use stable cursors.
-- You may add use-case specific extensions to the connection, pageInfo, and
-  edges - for example a "members" connection might include details on edges of
-  membership start date.
+- You may add use-case-specific extensions to the connection, `pageInfo`, and
+  edges; for example, a "members" connection might include membership start date
+  details on edges.
 - The `nodes` field can be used as a shortcut to `edges`&rarr;`node` for user
-  convenience. When this solution is followed, `PageInfo` must include
+  convenience. When this solution is followed, `pageInfo` must include
   `startCursor` and `endCursor` to enable cursor pagination.
 
 ### Client implementer
 
 - Detect connection shapes and provide ergonomic pagination APIs.
-- Page 2+ should use a separate focussed operation that re-uses the connection
+- Page 2+ should use a separate focused operation that reuses the connection
   field/fragment but omits sibling data fetches.
 - Hide cursor plumbing behind high-level pagination helpers where possible.
 - Prefer hard-coding pagination limits into the document rather than using

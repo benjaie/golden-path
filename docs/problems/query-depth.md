@@ -13,9 +13,9 @@ cause exponential increases to the amount of work to be done.
 ## Why it matters
 
 Risk of denial of service. Importantly, depth limits should be set early and
-raised as needed, they're hard to introduce at a later time as it may break
+raised as needed. They are hard to introduce at a later time as it may break
 existing queries. List depth is much more significant than selection set depth
-since it scales complexity exponentially rather than linarly.
+since it scales complexity exponentially rather than linearly.
 
 ## Practices that address this
 

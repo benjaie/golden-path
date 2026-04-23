@@ -14,7 +14,7 @@ increasing network transfer and server parsing/validation/execution costs.
 
 ## Why it matters
 
-Large requests can be expensive to transmit, parse, validate and execute.
+Large requests can be expensive to transmit, parse, validate, and execute.
 
 ## Practices that address this
 

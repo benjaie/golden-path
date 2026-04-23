@@ -5,15 +5,15 @@ title: Depth limits
 Depth limits help prevent excessively complex operations from being executed,
 helping protect against denial of service.
 
-- Selection set depth limits cap how deep a query can nest selections sets,
+- Selection set depth limits cap how deep a query can nest selection sets,
   thereby limiting the maximum waterfall depth.
 - List depth limits cap how deep lists can be nested, since lists multiply up
   the result size and can have an exponential impact on the complexity of a
   request.
 - Self-referential depth limits limit how many times a particular field can be
-  nested within its own selection sets; these cycles can allow multiplying up
-  how expensive an operation is with minimal effort. Self-referential nesting is
-  rarely desired and can be an indicator of a malicious operation, but there are
+  nested within its own selection sets; these cycles can multiply how expensive
+  an operation is with minimal effort. Self-referential nesting is rarely
+  desired and can be an indicator of a malicious operation, but there are
   certain classes of self-references that are expected and desired so overrides
   on a per-field basis must be exposed.
 
@@ -29,17 +29,17 @@ helping protect against denial of service.
 
 ## Configuration (suggested defaults)
 
-| Parameter                              | Default | Notes                                                                                  |
-| -------------------------------------- | ------- | -------------------------------------------------------------------------------------- |
-| `maxDepth`                             | `12`    | Maximum selection depth per operation.                                                 |
-| `maxListDepth`                         | `2`     | Maximum number of nested list levels.                                                  |
-| `maxSelfReferentialDepth`              | `1`     | Maximum number of times a field may be referenced nested within its own selection set. |
-| `maxIntrospectionDepth`                | `15`    | Allow introspection but keep it bounded.                                               |
-| `maxIntrospectionListDepth`            | `3`     | Nested-list bound for introspection.                                                   |
-| `maxIntrospectionSelfReferentialDepth` | `2`     | Maximum number of times a field may be referenced nested within its own selection set. |
+| Parameter                              | Default | Notes                                                                           |
+| -------------------------------------- | ------- | ------------------------------------------------------------------------------- |
+| `maxDepth`                             | `12`    | Maximum selection depth per operation.                                          |
+| `maxListDepth`                         | `2`     | Maximum number of nested list levels.                                           |
+| `maxSelfReferentialDepth`              | `1`     | Maximum number of times a field may be referenced within its own selection set. |
+| `maxIntrospectionDepth`                | `15`    | Allow introspection but keep it bounded.                                        |
+| `maxIntrospectionListDepth`            | `3`     | Nested-list bound for introspection.                                            |
+| `maxIntrospectionSelfReferentialDepth` | `2`     | Maximum number of times a field may be referenced within its own selection set. |
 
 We recommend the following overrides for self-referential depth to enable the
-most common introspection queries whilst blocking malicious requests:
+most common introspection queries while blocking malicious requests:
 
 - `Query.__schema`: 1
 - `Query.__type`: 1

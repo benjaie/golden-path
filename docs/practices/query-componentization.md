@@ -21,13 +21,13 @@ component's actual data usage and declared data requirements are defined
 alongside each other and are consistent. A change in one must be reflected by a
 change in the other, and these changes should not impact the rest of the
 application. This not only simplifies reasoning for developers, avoiding the
-need to perform props drilling, but also ensures that only data required to
-render the page is actually fetched.
+need for prop drilling, but also ensures that only data required to render the
+page is actually fetched.
 
 By ensuring data usage and requirements are synchronized, the problem of drift
 is eliminated. Drift traditionally occurs where data that was once required is
 no longer needed but it cannot be safely removed from the underlying operation
-because tracing down where it is used is too time consuming.
+because tracing down where it is used is too time-consuming.
 
 ## Solves
 
@@ -38,7 +38,7 @@ because tracing down where it is used is too time consuming.
 
 To implement this, pick one of:
 
-- [Fragment co-location](/solutions/fragment-colocation)
+- [Fragment colocation](/solutions/fragment-colocation)
 - To document: code-to-query generation
 
 Alongside the above, you should also implement the following:

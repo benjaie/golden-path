@@ -8,29 +8,28 @@ give GraphQL adopters the greatest chance of success with the technology when
 made part of the default experience.**
 
 Since the Golden Path is about defining the default experience of GraphQL
-adapters, the audience for this resource is primarily not the adoptors
-themselves but instead developers writing the shared tooling that the adopters
-will rely upon. This audience is typically comprised of open source and
-proprietary software maintainers writing GraphQL libraries, frameworks and
-tooling (servers, clients, gateways, code generators, etc), and the people
-designing schemas who need to ensure these core functionalities are exposed in a
-compatible way. To a lesser extent, this resources also serves as a shared
-vendor-neutral reference to these solutions, to explain why they exist and how
-to use them.
+adopters, the audience for this resource is primarily not those adopters
+themselves, but instead developers writing the shared tooling that adopters will
+rely on. This audience is typically made up of open source and proprietary
+software maintainers writing GraphQL libraries, frameworks, and tooling
+(servers, clients, gateways, code generators, etc.), and the people designing
+schemas who need to ensure this core functionality is exposed in a compatible
+way. To a lesser extent, this resource also serves as a shared vendor-neutral
+reference to these solutions, explaining why they exist and how to use them.
 
-The Golden Path is a community-maintained resource, lead by the GraphQL
-Technical Steering Committee, and is likely to evolve over time. It is motivated
-by problems that users face whilst using GraphQL, and aims to reduce these
-problems for future users. Sometimes this involves changes to the GraphQL
-specifications itself, but typically it involves aligning the ecosystem on a set
-of practices that minimize downsides for application developers by default
-(without requiring them to read large amounts of documentation).
+The Golden Path is a community-maintained resource, led by the GraphQL Technical
+Steering Committee, and is likely to evolve over time. It is motivated by
+problems that users face while using GraphQL, and aims to reduce these problems
+for future users. Sometimes this involves changes to the GraphQL specification
+itself, but typically it involves aligning the ecosystem on a set of practices
+that minimize downsides for application developers by default (without requiring
+them to read large amounts of documentation).
 
 ## Model
 
 The content is organized around four concepts:
 
-- **Roles**: entrypoints that map the reader's role to relevant practices.
+- **Roles**: entry points that map the reader's role to relevant practices.
 - **Practices**: default behaviors that should be adopted, one way or another.
 - **Solutions**: concrete implementation approaches for one or more practices.
 - **Problems**: failure modes these practices and solutions are intended to
@@ -38,13 +37,13 @@ The content is organized around four concepts:
 
 In short: determine the role (or roles) that best describe you as the reader and
 implement the specified practices by picking and applying one or more solutions
-for your implementer type.
+for that role.
 
 ## Get started
 
 The practices you need to implement will differ depending on your role; start by
-picking the [role(s)](/roles) that best reflect you or your project. You will
-also find terminology definitions on that page.
+picking the [roles](/roles) that best reflect you or your project. You will also
+find terminology definitions on that page.
 
 ## Status
 

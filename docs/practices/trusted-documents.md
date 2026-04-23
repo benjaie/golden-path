@@ -36,7 +36,7 @@ overtly malicious operations, code review and static linting tools should be
 used in combination to help ensure that the documents you are trusting are safe
 and conform to your standards.
 
-Limiting operations through an allow list does not place further restrictions on
+Limiting operations through an allowlist does not place further restrictions on
 variables, so care should be taken when adding variables to such documents. For
 example, if the `first` argument to a collection field is specified via a
 variable, an attacker could supply `{"first": 999999999}` which may still

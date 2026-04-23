@@ -4,7 +4,7 @@ title: Over-fetching
 
 Over-fetching happens when more data is returned than is actually needed. This
 can occur between the client and the GraphQL schema, and/or between the schema
-and the backend datastores.
+and the backend data stores.
 
 ## Symptoms
 

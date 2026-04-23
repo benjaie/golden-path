@@ -2,7 +2,7 @@
 title: Validation pagination limits
 ---
 
-Enforce page-size is specified during GraphQL validation.
+Enforce that page size is specified during GraphQL validation.
 
 ## Practices implemented
 
@@ -19,8 +19,8 @@ Enforce page-size is specified during GraphQL validation.
 - If the argument is provided statically, ensure it's within sensible bounds.
 - If the argument is provided as a variable, ensure the variable is non-null
   (required), that the default if specified is sensible, and defer to
-  [resolver pagination limits](./resolver-pagination-limits.md) for validating
-  the runtime value.
+  [resolver pagination limits](/solutions/resolver-pagination-limits) for
+  validating the runtime value.
 - Apply rule consistently to all list-returning and connection fields.
 - Include machine-readable error metadata for tooling.
 

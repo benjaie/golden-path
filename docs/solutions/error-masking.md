@@ -31,11 +31,10 @@ Normalizes errors returned to clients and hides internal details by default.
 You may wish to give each error a unique identifier so it can be looked up, but
 you also want to be able to see errors that are similar to each other. One way
 to achieve this is to hash the error message before masking it, then to the
-client you can log: `An error occurred (logged with hash: '...', id: '...')` and
-on the server `Masked GraphQL error (hash: '...', id: '...'): ...`. You can
-search the logs for the `id` to determine details about a specific instance of
-an error, and for the `hash` to look for solutions relating to that particular
-error shape.
+client you can return: `An error occurred (logged with hash: '...', id: '...')`
+and on the server log: `Masked GraphQL error (hash: '...', id: '...'): ...`. You
+can search the logs for the `id` to determine details about a specific instance
+of an error, and for the `hash` to look for other errors with that shape.
 
 ## Cautions
 

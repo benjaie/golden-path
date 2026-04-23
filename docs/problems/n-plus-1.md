@@ -2,22 +2,22 @@
 title: The N+1 problem
 ---
 
-The N+1 problem occurs when a list is requested and when processed results in a
-follow-up request related to each item in the list. An initial request for the
-list of N items, then N follow-up requests: N+1 requests total.
+The N+1 problem occurs when processing a requested list results in a follow-up
+request for each item in the list: one initial request for the list of N items,
+then N follow-up requests, for N+1 requests total.
 
 GraphQL is designed to solve this problem between the client and the server by
-ensuring the client requests everything it needs up front; however the default
+ensuring the client requests everything it needs up front. However, the default
 resolver model of GraphQL execution can result in N+1 backend calls during
 GraphQL execution.
 
-The N+1 problem can be a symptom of under-fetching - you didn't fetch enough
-information in the first request, so you need to go back and request more. It's
-also from a lack of batching.
+The N+1 problem can be a symptom of under-fetching: you did not fetch enough
+information in the first request, so you need to go back and request more. It
+can also be caused by a lack of batching.
 
 ## Symptoms
 
-- Many requests being sent from service to datastores (similar requests, each
+- Many requests being sent from services to data stores (similar requests, each
   with their own different ID)
 - Latency grows linearly with list size
 - Latency grows exponentially with operation list depths

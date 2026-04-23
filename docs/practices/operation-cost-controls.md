@@ -12,14 +12,14 @@ Think about:
 - Query depth
   - How many selection sets deep?
   - How many field selections deep?
-  - How many _list_ field selections deep (since lists multiply complexity); and
-    do these lists have bounded sizes?
-  - Self-referential depth (cycle limit) - how many times is it reasonable to
+  - How many _list_ field selections deep, since lists multiply complexity, and
+    are those lists bounded?
+  - Self-referential depth (cycle limit): how many times is it reasonable to
     nest a field selection transitively within the selection set for the same
     field? (Note: you might want to limit this to a low limit such as 0 in
-    general, but if you do, you should allow per-field-coordinate overrides -
+    general, but if you do, you should allow per-field-coordinate overrides,
     e.g. to allow for `{ viewer { parent { parent { parent { name } } } } }` to
-    get the viewer's great grandparent's name)
+    get the viewer's great-grandparent's name.)
   - Consider assigning costs to each field (more expensive fields should have
     higher costs, including list fields) and then estimating the total cost of
     the query statically. Place a limit.
@@ -52,8 +52,8 @@ third-party integrations).
 ## Why this is conditional
 
 If your deployment enforces trusted documents and controlled releases, you may
-not need these controls at runtime, however you may wish to adopt them as "lint"
-rules during development to help avoid developers accidentally authoring
+not need these controls at runtime. However, you may wish to adopt them as
+"lint" rules during development to help avoid developers accidentally authoring
 expensive "trusted" documents.
 
 ## Solves

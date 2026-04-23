@@ -28,7 +28,7 @@ Use this role if you design and evolve a GraphQL schema inside an organization.
 Run these checks continuously in CI/CD and schema review workflows:
 
 - Naming convention linting (types, fields, arguments, enums, directives)
-- Connection contract checks (cursor + pageInfo + bounded pagination args)
+- Connection contract checks (cursor + `pageInfo` + bounded pagination args)
 - Mutation contract checks (single input object + structured payload)
 - Breaking change detection against the previous published schema
 - Deprecation usage monitoring before removal

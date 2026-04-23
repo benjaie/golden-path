@@ -25,8 +25,8 @@ Stops validation when it exceeds a time budget.
 - Enforce timeouts during validation, before execution starts.
 - Surface clear errors that point to validation cost.
 - Keep validation rules deterministic.
-- Hashing operations and storing them to a "known good" list once validated once
-  can save repeated validation costs.
+- Hashing operations and storing them in a "known good" list once validated can
+  save repeated validation costs.
 
 ## Cautions
 
