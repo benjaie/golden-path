@@ -19,9 +19,9 @@ Runtime-based DoS is costly to recover from and difficult to diagnose.
 
 - [Pagination limits](/practices/pagination-limits)
 
-## Patterns that address this
+## Solutions that address this
 
-- [Validation pagination limits](/patterns/validation-pagination-limits)
-- [Resolver pagination limits](/patterns/resolver-pagination-limits)
-- [Execution timeouts](/patterns/execution-timeouts)
-- [Query complexity limits](/patterns/query-complexity-limits)
+- [Validation pagination limits](/solutions/validation-pagination-limits)
+- [Resolver pagination limits](/solutions/resolver-pagination-limits)
+- [Execution timeouts](/solutions/execution-timeouts)
+- [Query complexity limits](/solutions/query-complexity-limits)

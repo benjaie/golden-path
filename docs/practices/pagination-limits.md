@@ -26,10 +26,10 @@ sizes helps to limit this growth.
 - [Execution cost](/problems/execution-cost)
 - [Response size](/problems/response-size)
 
-## Implementing patterns
+## Implementing solutions
 
-- [Validation pagination limits](/patterns/validation-pagination-limits)
-- [Resolver pagination limits](/patterns/resolver-pagination-limits)
+- [Validation pagination limits](/solutions/validation-pagination-limits)
+- [Resolver pagination limits](/solutions/resolver-pagination-limits)
 
 ## Notes
 

@@ -21,6 +21,6 @@ plans, or implementation details.
 
 - [Error leakage](/problems/error-leakage)
 
-## Implementing patterns
+## Implementing solutions
 
-- [Error masking](/patterns/error-masking)
+- [Error masking](/solutions/error-masking)

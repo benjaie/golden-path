@@ -20,7 +20,7 @@ edges, cursors, and page metadata.
   edges - for example a "members" connection might include details on edges of
   membership start date.
 - The `nodes` field can be used as a shortcut to `edges`&rarr;`node` for user
-  convenience. When this pattern is followed, `PageInfo` must include
+  convenience. When this solution is followed, `PageInfo` must include
   `startCursor` and `endCursor` to enable cursor pagination.
 
 ### Client implementer

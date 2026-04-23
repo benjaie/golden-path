@@ -34,11 +34,11 @@ because tracing down where it is used is too time consuming.
 - [Over-fetching](/problems/overfetching)
 - [Under-fetching](/problems/underfetching)
 
-## Implementing patterns
+## Implementing solutions
 
 To implement this, pick one of:
 
-- [Fragment co-location](/patterns/fragment-colocation)
+- [Fragment co-location](/solutions/fragment-colocation)
 - To document: code-to-query generation
 
 Alongside the above, you should also implement the following:

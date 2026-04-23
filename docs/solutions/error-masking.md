@@ -34,7 +34,7 @@ to achieve this is to hash the error message before masking it, then to the
 client you can log: `An error occurred (logged with hash: '...', id: '...')` and
 on the server `Masked GraphQL error (hash: '...', id: '...'): ...`. You can
 search the logs for the `id` to determine details about a specific instance of
-an error, and for the `hash` to look for patterns relating to that particular
+an error, and for the `hash` to look for solutions relating to that particular
 error shape.
 
 ## Cautions

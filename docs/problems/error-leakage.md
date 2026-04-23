@@ -2,7 +2,6 @@
 title: Error leakage
 ---
 
-
 Internal errors and stack traces leak sensitive information to clients.
 
 ## Symptoms
@@ -18,6 +17,6 @@ Leaked errors expose internals and make client behavior inconsistent.
 
 - [Error hardening](/practices/error-hardening)
 
-## Patterns that address this
+## Solutions that address this
 
-- [Error masking](/patterns/error-masking)
+- [Error masking](/solutions/error-masking)

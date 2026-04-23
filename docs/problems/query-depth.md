@@ -21,7 +21,7 @@ since it scales complexity exponentially rather than linarly.
 
 - [Trusted documents](/practices/trusted-documents)
 
-## Patterns that address this
+## Solutions that address this
 
-- [Depth limits](/patterns/depth-limits)
-- [Trusted documents (allowlist)](/patterns/trusted-documents)
+- [Depth limits](/solutions/depth-limits)
+- [Trusted documents (allowlist)](/solutions/trusted-documents)

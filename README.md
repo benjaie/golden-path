@@ -17,12 +17,12 @@ those developers use.
   start.
 - Identify and specify the practices that libraries/tooling/frameworks should
   put in place so that users never meet these problems.
-- Document implementation patterns that can realize each practice.
-- Define common names for these techniques/patterns and their parameters, and
+- Document implementation solutions that can realize each practice.
+- Define common names for these techniques/solutions and their parameters, and
   determine the recommended defaults and configuration parameters.
 - Explain why each practice exists, why it is the recommended default, and when
   it may be reasonable for a user to opt out.
-- Connect practices and patterns to the concrete problems they solve.
+- Connect practices and solutions to the concrete problems they solve.
 - Don't be overly prescriptive, allow space for innovation.
 
 The long-term aim is that GraphQL tooling can provide a consistent, safe, and
@@ -32,7 +32,7 @@ out with informed intent.
 The Golden Path isn't aiming to maximize upside (e.g. the absolute most
 performant or lowest latency or most efficient), instead it is aiming to
 minimize downside - if a user does not invest time in studying all GraphQL's
-patterns up front, they should still end up with a solution that is "good
+solutions up front, they should still end up with a solution that is "good
 enough" 6 months down the road.
 
 ## Status
@@ -45,7 +45,7 @@ enough" 6 months down the road.
 
 This repo is intended to enable collaboration across the GraphQL ecosystem. If
 you maintain GraphQL tooling or have strong opinions on defaults, please open
-issues or pull requests with suggested patterns, problems, and configuration
+issues or pull requests with suggested solutions, problems, and configuration
 details.
 
 ## Local development

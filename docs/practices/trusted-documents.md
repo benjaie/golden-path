@@ -23,9 +23,9 @@ cached), reduces the need for broad operation cost controls.
 - [Response size](/problems/response-size)
 - [DoS via validation](/problems/validation-dos)
 
-## Implementing patterns
+## Implementing solutions
 
-- [Trusted documents (allowlist)](/patterns/trusted-documents)
+- [Trusted documents (allowlist)](/solutions/trusted-documents)
 - To document: document signing
 - To document: operation registry
 

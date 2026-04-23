@@ -32,7 +32,7 @@ extreme it can lead to denial of service.
 
 - [Batched execution](/practices/batched-execution)
 
-## Patterns that address this
+## Solutions that address this
 
-- [Batch resolvers](/patterns/batch-resolvers)
-- [Batching and caching (DataLoader)](/patterns/batching-caching)
+- [Batch resolvers](/solutions/batch-resolvers)
+- [Batching and caching (DataLoader)](/solutions/batching-caching)

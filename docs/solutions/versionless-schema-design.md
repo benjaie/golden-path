@@ -13,7 +13,7 @@ instead of introducing versioned GraphQL endpoints.
 - Use deprecations with clear replacement guidance.
 - Remove deprecated fields only after observed usage reaches an acceptable
   threshold.
-- Think about future extensibility when designing types - patterns such as
+- Think about future extensibility when designing types - solutions such as
   connections and mutation payloads can enable future extensions (aggregations,
   related data, metadata) that simple list fields or mutated records may not.
 
@@ -28,12 +28,12 @@ instead of introducing versioned GraphQL endpoints.
 - Coordinate schema rollout with client release cadence.
 - Keep observability on deprecated field usage and resolver cost.
 
-## Related patterns
+## Related solutions
 
-These patterns help your schema tolerate future changes, often by giving extra
+These solutions help your schema tolerate future changes, often by giving extra
 space that the API can expand into:
 
-- [Cursor Connections](/patterns/cursor-connections)
-- [Mutation input objects](/patterns/mutation-input-objects)
-- [Mutation payloads](/patterns/mutation-payloads)
-- [Modeled mutation errors](/patterns/modeled-mutation-errors)
+- [Cursor Connections](/solutions/cursor-connections)
+- [Mutation input objects](/solutions/mutation-input-objects)
+- [Mutation payloads](/solutions/mutation-payloads)
+- [Modeled mutation errors](/solutions/modeled-mutation-errors)

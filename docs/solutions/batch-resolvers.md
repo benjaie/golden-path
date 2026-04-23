@@ -7,7 +7,7 @@ associated arguments and returns the value for that field, a batch resolver
 receives a _list_ of all of the parent objects in that operation position (TODO:
 define term) and must return a list of the same size where each entry is the
 value to use for the correlated parent object. Essentially it's the DataLoader
-pattern but enforced via every resolver in the schema.
+solution but enforced via every resolver in the schema.
 
 Batch resolvers force the developer to address the N+1 problem head on, and
 should the developer still manage to introduce an N+1 problem it should be much

@@ -6,7 +6,7 @@ Collects per-field requests, batches them, and caches results within a request.
 
 ## Not golden path
 
-This is not the recommended pattern for
+This is not the recommended solution for
 [Batched execution](/practices/batched-execution) because it requires developers
 to know about it, opt in, and use it consistently in order to reliably and
 effectively solve the N+1 problem. It's a solid solution and can work well, but

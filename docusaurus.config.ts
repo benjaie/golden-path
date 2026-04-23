@@ -77,7 +77,7 @@ const config: Config = {
       items: [
         { to: "/roles", label: "Roles", position: "left" },
         { to: "/practices", label: "Practices", position: "left" },
-        { to: "/patterns", label: "Patterns", position: "left" },
+        { to: "/solutions", label: "Solutions", position: "left" },
         { to: "/problems", label: "Problems", position: "left" },
         {
           href: "https://github.com/benjaie/golden-path",
@@ -101,8 +101,8 @@ const config: Config = {
               to: "/practices",
             },
             {
-              label: "Patterns",
-              to: "/patterns",
+              label: "Solutions",
+              to: "/solutions",
             },
             {
               label: "Problems",
@@ -131,8 +131,8 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Patterns",
-              to: "/patterns",
+              label: "Solutions",
+              to: "/solutions",
             },
           ],
         },

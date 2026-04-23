@@ -63,9 +63,9 @@ expensive "trusted" documents.
 - [Excessive query depth](/problems/query-depth)
 - [DoS via validation](/problems/validation-dos)
 
-## Implementing patterns
+## Implementing solutions
 
-- [Query complexity limits](/patterns/query-complexity-limits)
-- [Depth limits](/patterns/depth-limits)
-- [Token limits](/patterns/token-limits)
-- [Disabling introspection](/patterns/disabling-introspection)
+- [Query complexity limits](/solutions/query-complexity-limits)
+- [Depth limits](/solutions/depth-limits)
+- [Token limits](/solutions/token-limits)
+- [Disabling introspection](/solutions/disabling-introspection)

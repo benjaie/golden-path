@@ -13,7 +13,7 @@ schema development time. Some teams prefer a more traditional approach where
 GraphQL endpoints are explicitly versioned and have their own lifecycle and
 sunsetting timelines.
 
-## Recommended patterns
+## Recommended solutions
 
-- [Versionless schema design](/patterns/versionless-schema-design)
-- To document: alternative versioning patterns
+- [Versionless schema design](/solutions/versionless-schema-design)
+- To document: alternative versioning solutions

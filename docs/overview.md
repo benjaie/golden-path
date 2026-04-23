@@ -15,8 +15,8 @@ proprietary software maintainers writing GraphQL libraries, frameworks and
 tooling (servers, clients, gateways, code generators, etc), and the people
 designing schemas who need to ensure these core functionalities are exposed in a
 compatible way. To a lesser extent, this resources also serves as a shared
-vendor-neutral reference to these patterns, to explain why they exist and how to
-use them.
+vendor-neutral reference to these solutions, to explain why they exist and how
+to use them.
 
 The Golden Path is a community-maintained resource, lead by the GraphQL
 Technical Steering Committee, and is likely to evolve over time. It is motivated
@@ -32,12 +32,12 @@ The content is organized around four concepts:
 
 - **Roles**: entrypoints that map the reader's role to relevant practices.
 - **Practices**: default behaviors that should be adopted, one way or another.
-- **Patterns**: concrete implementation approaches for one or more practices.
-- **Problems**: failure modes these practices and patterns are intended to
+- **Solutions**: concrete implementation approaches for one or more practices.
+- **Problems**: failure modes these practices and solutions are intended to
   mitigate.
 
 In short: determine the role (or roles) that best describe you as the reader and
-implement the specified practices by picking and appling one or more patterns
+implement the specified practices by picking and applying one or more solutions
 for your implementer type.
 
 ## Get started

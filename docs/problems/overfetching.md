@@ -25,6 +25,6 @@ the client.
 
 - [Query componentization](/practices/query-componentization)
 
-## Patterns that address this
+## Solutions that address this
 
-- [Fragment colocation](/patterns/fragment-colocation)
+- [Fragment colocation](/solutions/fragment-colocation)

@@ -18,7 +18,7 @@ page-number pagination as it can leverage indexes and other backend
 optimizations. Further, it gives clients stable forward/backward traversal,
 encourages bounded list access, and creates a consistent contract across schema,
 client abstractions, and enforcement tooling. Clients can easily leverage common
-pagination patterns such as cursor connections to make list handling more
+pagination solutions such as cursor connections to make list handling more
 ergonomic for the developer.
 
 (Note: cursor connections also make available space to expand your API into -
@@ -31,9 +31,9 @@ absolute pagination (as opposed to relative pagination where just the
 previous/next page is needed) is desired, other solutions may be used as
 appropriate.
 
-## Implementing patterns
+## Implementing solutions
 
-- [Cursor Connections](/patterns/cursor-connections)
+- [Cursor Connections](/solutions/cursor-connections)
 
 ## Notes
 

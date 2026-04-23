@@ -22,7 +22,7 @@ and cause denial of service.
 
 - [Trusted documents](/practices/trusted-documents)
 
-## Patterns that address this
+## Solutions that address this
 
-- [Query complexity limits](/patterns/query-complexity-limits)
-- [Trusted documents (allowlist)](/patterns/trusted-documents)
+- [Query complexity limits](/solutions/query-complexity-limits)
+- [Trusted documents (allowlist)](/solutions/trusted-documents)

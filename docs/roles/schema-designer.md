@@ -17,11 +17,11 @@ Use this role if you design and evolve a GraphQL schema inside an organization.
 - [Cursor pagination](/practices/cursor-pagination)
 - [Versioning](/practices/versioning)
 
-## Recommended patterns to implement
+## Recommended solutions to implement
 
-- [Mutation input objects](/patterns/mutation-input-objects)
-- [Mutation payloads](/patterns/mutation-payloads)
-- [Modeled mutation errors](/patterns/modeled-mutation-errors)
+- [Mutation input objects](/solutions/mutation-input-objects)
+- [Mutation payloads](/solutions/mutation-payloads)
+- [Modeled mutation errors](/solutions/modeled-mutation-errors)
 
 ## Consistency and governance checks
 

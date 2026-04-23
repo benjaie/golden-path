@@ -20,8 +20,8 @@ Validation is on the hot path for every request, so abuse affects all users.
 - [Trusted documents](/practices/trusted-documents)
 - TODO: caching parse/validate
 
-## Patterns that address this
+## Solutions that address this
 
-- [Trusted documents (allowlist)](/patterns/trusted-documents)
-- [Token limits](/patterns/token-limits)
-- [Validation timeouts](/patterns/validation-timeouts)
+- [Trusted documents (allowlist)](/solutions/trusted-documents)
+- [Token limits](/solutions/token-limits)
+- [Validation timeouts](/solutions/validation-timeouts)
