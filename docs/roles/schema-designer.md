@@ -3,8 +3,7 @@ title: Schema designer
 sidebar_position: 10
 ---
 
-Use this profile if you design and evolve a GraphQL schema inside an
-organization.
+Use this role if you design and evolve a GraphQL schema inside an organization.
 
 ## Primary goals
 

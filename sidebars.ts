@@ -5,19 +5,19 @@ const sidebars: SidebarsConfig = {
     "overview",
     {
       type: "category",
-      label: "Profiles",
-      link: { type: "doc", id: "profiles" },
+      label: "Roles",
+      link: { type: "doc", id: "roles" },
       items: [
         {
           type: "category",
           label: "Server",
-          link: { type: "doc", id: "profiles/server/index" },
-          items: ["profiles/server/first-party", "profiles/server/third-party"],
+          link: { type: "doc", id: "roles/server/index" },
+          items: ["roles/server/first-party", "roles/server/third-party"],
         },
-        "profiles/client",
-        "profiles/tooling",
-        "profiles/schema-designer",
-        "profiles/application-developer",
+        "roles/client",
+        "roles/tooling",
+        "roles/schema-designer",
+        "roles/application-developer",
       ],
     },
     {

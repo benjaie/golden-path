@@ -3,7 +3,7 @@ title: Client
 sidebar_position: 50
 ---
 
-Use this profile if you build GraphQL client libraries, frameworks, or SDKs.
+Use this role if you build GraphQL client libraries, frameworks, or SDKs.
 
 ## Recommended practices
 

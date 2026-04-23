@@ -30,21 +30,21 @@ of practices that minimize downsides for application developers by default
 
 The content is organized around four concepts:
 
-- **Profiles**: entrypoints that map the reader's role to relevant practices.
+- **Roles**: entrypoints that map the reader's role to relevant practices.
 - **Practices**: default behaviors that should be adopted, one way or another.
 - **Patterns**: concrete implementation approaches for one or more practices.
 - **Problems**: failure modes these practices and patterns are intended to
   mitigate.
 
-In short: determine the profile (or profiles) that best describe you as the
-reader and implement the specified practices by picking and appling one or more
-patterns for your implementer type.
+In short: determine the role (or roles) that best describe you as the reader and
+implement the specified practices by picking and appling one or more patterns
+for your implementer type.
 
 ## Get started
 
 The practices you need to implement will differ depending on your role; start by
-picking the [profile(s)](/profiles) that best reflect you or your project. You
-will also find terminology definitions on that page.
+picking the [role(s)](/roles) that best reflect you or your project. You will
+also find terminology definitions on that page.
 
 ## Status
 

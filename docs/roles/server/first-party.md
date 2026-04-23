@@ -3,7 +3,7 @@ title: First-party API (default)
 sidebar_position: 30
 ---
 
-Use this profile for an API to be consumed by trusted clients owned by the same
+Use this role for an API to be consumed by trusted clients owned by the same
 organization. This suits the majority of GraphQL deployments.
 
 ## Intended for

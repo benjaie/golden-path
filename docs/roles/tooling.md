@@ -3,7 +3,7 @@ title: Tooling
 sidebar_position: 60
 ---
 
-Use this profile if you build GraphQL linters, registries, schema diffing tools,
+Use this role if you build GraphQL linters, registries, schema diffing tools,
 code generators, or IDE/language tooling.
 
 ## Recommended areas

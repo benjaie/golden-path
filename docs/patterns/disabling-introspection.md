@@ -33,16 +33,16 @@ introspection
 
 ## Configuration (suggested defaults)
 
-| Parameter              | Default       | Notes                                    |
-| ---------------------- | ------------- | ---------------------------------------- |
-| `introspectionEnabled` | profile-based | `true` first-party, `false` third-party. |
+| Parameter              | Default    | Notes                                    |
+| ---------------------- | ---------- | ---------------------------------------- |
+| `introspectionEnabled` | role-based | `true` first-party, `false` third-party. |
 
 ## Implementation notes
 
 - Gate introspection by environment or auth scope.
 - Provide explicit errors when introspection is blocked. Ideally redirect users
   to an SDL file containing a definition of the schema.
-- For third-party profiles, publish SDL/schema docs via a separate channel when
+- For third-party roles, publish SDL/schema docs via a separate channel when
   introspection is disabled.
 - Enforce introspection depth/list-depth via the depth-limits rule.
 

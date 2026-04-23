@@ -3,10 +3,10 @@ title: Third-party API (opt-in)
 sidebar_position: 40
 ---
 
-Use this profile for an API that must accept operations authored by untrusted or
+Use this role for an API that must accept operations authored by untrusted or
 third-party clients. This is a more niche use-case for GraphQL that requires
 more complex protections against malicious requests; we recommend implementing a
-[first-party API](/profiles/server/first-party/) if your use case supports it.
+[first-party API](/roles/server/first-party/) if your use case supports it.
 
 ## Intended for
 

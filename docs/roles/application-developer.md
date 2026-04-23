@@ -3,7 +3,7 @@ title: Application developer
 sidebar_position: 20
 ---
 
-Use this profile if you consume a GraphQL API to build product features.
+Use this role if you consume a GraphQL API to build product features.
 
 This site is primarily targeted at schema and ecosystem implementers, but these
 practices are especially relevant to app developers:

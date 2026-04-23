@@ -1,15 +1,15 @@
 ---
-title: Profiles
-slug: /profiles
+title: Roles
+slug: /roles
 sidebar_position: 2
 ---
 
-A profile lays out the practices that you (the reader) should address based on
-your role, such that consumers downstream of your software walk the golden path
-and thus avoid common downsides and pitfalls.
+A role lays out the practices that you (the reader) should address, such that
+consumers downstream of your software walk the golden path and thus avoid common
+downsides and pitfalls.
 
-Pick the profile that matches your role, then ensure your software/schema
-addresses the practices listed for that profile.
+Pick the role that matches your responsibilities, then ensure your
+software/schema addresses the practices listed for that role.
 
 ## Terminology
 
@@ -26,12 +26,12 @@ Most of the work in the Golden Path is to ensure that off-the-shelf GraphQL
 software sets users up for success. Broadly we break this kind of software down
 into three categories:
 
-- [Server](/profiles/server): off-the-shelf libraries/frameworks that expose a
+- [Server](/roles/server): off-the-shelf libraries/frameworks that expose a
   GraphQL schema.
-- [Client](/profiles/client): off-the-shelf libraries/frameworks that issue
+- [Client](/roles/client): off-the-shelf libraries/frameworks that issue
   requests to GraphQL servers and expose results to application code.
-- [Tooling](/profiles/tooling): supporting tools such as linters, schema
-  diffing, codegen, language servers, and IDE integrations.
+- [Tooling](/roles/tooling): supporting tools such as linters, schema diffing,
+  codegen, language servers, and IDE integrations.
 
 ## Organization implementers
 
@@ -44,7 +44,7 @@ success, so they should implement a golden path for them. Application developers
 should follow the path laid out before them, but we include some recommended
 practices for them also to help engender success.
 
-- [Schema designer](/profiles/schema-designer): designs and evolves the schema
-  and resolvers to meet organizational and application needs.
-- [Application developer](/profiles/application-developer): consumes the schema
-  to build web, mobile, desktop, and backend applications.
+- [Schema designer](/roles/schema-designer): designs and evolves the schema and
+  resolvers to meet organizational and application needs.
+- [Application developer](/roles/application-developer): consumes the schema to
+  build web, mobile, desktop, and backend applications.
